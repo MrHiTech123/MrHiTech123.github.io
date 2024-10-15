@@ -1,3 +1,4 @@
 window.setTimeout(() => {
-	document.getElementsByTagName('a')[0].remove();
+	var len = document.getElementsByTagName('a').length;
+	document.getElementsByTagName('a')[len - 1].remove();
 }, 10);
