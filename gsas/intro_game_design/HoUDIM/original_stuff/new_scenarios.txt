@@ -1,0 +1,81 @@
+Scenarios: Normal Board
+
+Kitchen Scenario: You enter the kitchen and are greeted by the smell of freshly prepared food, though the house has been abandoned for years. On the table lies a feast, and at the center is a strange potion that radiates with a soothing energy.
+A: Quickly grab the potion and ignore the cursed feast (Roll against DEX to determine success)
+Success: You snatch the potion without disturbing the enchanted feast. The potion fully heals the party.
+Fail: The cursed food comes to life, and a spectral hand reaches for you. everyone takes 5 damage to the torso.
+B: Analyze the potion to ensure it's safe to consume (Roll against INT to determine success)
+Success: You identify the potion’s healing properties, ensuring it’s safe. The party is fully healed.
+Fail: You miscalculate and the dark energy around the feast intensifies. everyone takes 5 damage to the torso
+C: Use magic to dispel the curse surrounding the feast (Roll against ARC to determine success)
+Success: Your spell banishes the dark magic, leaving the feast and potion safe to consume. The party is fully healed.
+Fail: The magic backfires, making the curse stronger. The feast begins to spoil before your eyes. everyone takes 5 damage to the torso
+
+Brewery Scenario: You’ve entered the brewery and found a vat of liquid that might be the acid you need to melt the strange substance blocking the cellar. All of a sudden, a vial of liquid is dropped into the vat, and you must act fast to stop it from exploding.
+A: Quickly shut off the heat source (Roll against DEX to determine success)
+Success: You prevent the explosion and safely collect the acid.
+Fail: The heat burns your hand and causes a minor explosion. everyone takes 5 damage to the torso
+B: Analyze the liquid's composition (Roll against INT to determine success)
+Success: You confirm it's the acid you need, allowing the group to collect it.
+Fail: The liquid is unstable and you accidentally trigger a small reaction. Everyone takes 5 damage to each hand.
+C: Cast a spell to cool the vat (Roll against ARC to determine success)
+Success: The liquid cools and the acid is collected safely.
+Fail: The spell backfires, causing a more dangerous reaction. everyone takes 10 damage to the torso 
+
+Study Scenario 1: You all come across a tall mirror in the study. It shows you each a reflection of a memory you regret. The house feeds off your guilt, and you must face it to move forward.
+A: Try to break the mirror before it overwhelms you. (Roll against DEX to determine success)
+Success: The glass cracks, weakening the house’s hold.
+Fail: The mirror shows you a deeper, more painful memory. everyone takes 5 damage to the torso
+B: Analyze the reflection and try to understand the house’s magic. (Roll against INT to determine success)
+Success: You realize the mirror feeds off emotional trauma and can be resisted.
+Fail: You get lost in your reflection and feel your resolve weakening.
+C: Use a spell to banish the reflection (Roll against ARC to determine success)
+Success: Your magic dims the power of the mirror, helping the group regain control.
+Fail: The mirror reflects the spell. The Active Human takes 10 damage to their Torso.
+
+Study Scenario 2: You’ve found the key in the study, but as you reach for it, the shadows in the room begin to move, seemingly alive. You must work together to avoid being overwhelmed.
+A: Examine the shadows for weaknesses (Roll against INT to determine success)
+Success: You notice the shadows are illusions and dispel them.
+Fail: The shadows warp your vision, confusing the group but ultimately causing no further harm.
+B: Quickly grab the key and run (Roll against DEX to determine success)
+Success: You grab the key and escape from the room.
+Fail: The shadow grasps you, slowing down your escape. Each Human takes 5 damage to one of their legs (their choice).
+C: Use a light spell to push back the shadows (Roll against ARC to determine success)
+Success: The shadows retreat allowing the group to grab the key.
+Fail: The spell intensifies the darkness making the shadows more aggressive. everyone takes 5 damage to the torso
+
+Scenarios: Blood moon board
+
+Armory Scenario: A Silver Dagger lies within a glass case in the armory. The moment you enter, the weapons on the walls animate and begin to attack.
+A: Dodge the flying weapons and smash the case (Roll against DEX to determine success)
+Success: You break the case and grab the blade.
+Fail: A weapon catches you, injuring you. +1 SAN for everyone.
+B: Find the mechanism controlling the weapons (Roll against INT to determine success)
+Success: You disable the trap, stopping the weapons.
+Fail: The mechanism is too complex, and the weapons continue their assault. everyone takes 10 damage to the torso.
+C: Use a spell to neutralize the weapons (Roll against ARC to determine success)
+Success: The weapons fall to the ground, harmless.
+Fail: The spell backfires, making the weapons even faster and more erratic. Everyone takes 10 damage to a random HP pool.
+
+Library Scenario: Tomes stretch across every wall of this grand bookery. Before you, a massive, open spellbook covers the surface of a lectern.
+All of a sudden, the runes inside begin to glow, and perfect circles made of pure fire appear on the ground around each of you.
+A: Dispel the circles with magic (Roll against ARC to determine success)
+Success: The circles of flame fizzle out, leaving behind nothing more than small burns on the carpet.
+Failure: The circles of flame explode, dealing 10 damage to each Human's Torso.
+B: Try to leap out of the circle (Roll against DEX to determine success)
+Success: You are able to leap out of the circle, and quickly run over to the spellbook and clamp it shut, extinguishing the flames.
+Failure: You attempt to leap out of the flames, but they rise higher, and you sail right through them. Each of the Primary Human's limbs takes 5 damage.
+C: Try to find the area of the circle (Roll against INT to determine success)
+Success: You find that the area is pi * the radius ^ 2, but this is not helpful information (recieve no XP).
+Failure: You probably should have put that formula on your crib sheet-it's on the tip of your tongue!
+
+Attic Scenario: You reach the attic, but the room is filled with a dark presence that clouds your mind. You can feel it trying to drain your sanity, and you must act quickly to resist it.
+A: Quickly escape the presence’s influence (Roll against DEX to determine success)
+Success: You dodge through the shadows and grab the item, leaving the presence behind.
+Fail: The dark presence touches you, draining your energy. everyone takes 10 damage to the torso.
+B: Study the presence to understand its nature (Roll against INT to determine success)
+Success: You identify the source of its power and weaken it, allowing the group to proceed safely.
+Fail: The presence overwhelms you, causing confusion and panic. everyone takes 10 damage to the torso
+C: Use a protective spell to shield the group from the presence (Roll against ARC to determine success)
+Success: Your spell holds the dark force at bay, giving everyone time to escape with the item.
+Fail: The spell backfires, intensifying the presence’s assault. everyone takes 10 damage to the torso

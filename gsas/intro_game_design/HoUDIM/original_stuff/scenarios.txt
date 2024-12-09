@@ -2,29 +2,29 @@ Scenarios: Normal Board
 Scenario 1: You enter the kitchen and are greeted by the smell of freshly prepared food, though the house has been abandoned for years. On the table lies a feast, and at the center is a strange potion that radiates with a soothing energy.
 A: Quickly grab the potion and ignore the cursed feast (Need at least 3 DEX)
 Success: You snatch the potion without disturbing the enchanted feast. The potion fully heals the party. +1 DEX
-Fail: The cursed food comes to life, and a spectral hand reaches for you. -1 SAN for everyone
+Fail: The cursed food comes to life, and a spectral hand reaches for you. everyone takes 5 damage to the torso.
 B: Analyze the potion to ensure it's safe to consume (Need at least 3 INT)
 Success: You identify the potion’s healing properties, ensuring it’s safe. The party is fully healed. +1 INT
-Fail: You miscalculate and the dark energy around the feast intensifies. -1 SAN for everyone
+Fail: You miscalculate and the dark energy around the feast intensifies. everyone takes 5 damage to the torso
 C: Use magic to dispel the curse surrounding the feast (Need at least 3 ARC)
 Success: Your spell banishes the dark magic, leaving the feast and potion safe to consume. The party is fully healed. +1 ARC
-Fail: The magic backfires, making the curse stronger. The feast begins to spoil before your eyes. -1 SAN for everyone
+Fail: The magic backfires, making the curse stronger. The feast begins to spoil before your eyes. everyone takes 5 damage to the torso
 
 Scenario 2: You’ve entered the brewery and found a vat of liquid that might be the acid you need to melt the strange substance blocking the cellar. However, the vat is boiling over, and you must act fast to stop it from exploding.
 A: Quickly shut off the heat source (Need at least 5 DEX)
 Success: You prevent the explosion and safely collect the acid. +1 DEX
-Fail: The heat burns your hand and causes a minor explosion. -1 SAN for everyone
-B: Analyze the liquids composition (Need at least 5 INT)
+Fail: The heat burns your hand and causes a minor explosion. everyone takes 5 damage to the torso
+B: Analyze the liquid's composition (Need at least 5 INT)
 Success: You confirm it's the acid you need, allowing the group to collect it. +1 INT
 Fail: The liquid is unstable and you accidentally trigger a small reaction. -1 SAN
 C: Cast a spell to cool the vat (Need at least 5 ARC)
 Success: The liquid cools and the acid is collected safely. +1 ARC
-Fail: The spell backfires, causing a more dangerous reaction. -2 SAN for everyone 
+Fail: The spell backfires, causing a more dangerous reaction. everyone takes 10 damage to the torso 
 
 Scenario 3: You all come across a tall mirror in the study. It shows you each a reflection of a memory you regret. The house feeds off your guilt, and you must face it to move forward.
 A: Try to break the mirror before it overwhelms you. (Need at least 5 DEX)
 Success: The glass cracks, weakening the house’s hold. +1 DEX
-Fail: The mirror shows you a deeper, more painful memory. -1 SAN for everyone
+Fail: The mirror shows you a deeper, more painful memory. everyone takes 5 damage to the torso
 B: Analyze the reflection and try to understand the house’s magic. (Need at least 6 INT)
 Success: You realize the mirror feeds off emotional trauma and can be resisted. +1 INT
 Fail: You get lost in your reflection and feel your resolve weakening. -1 SAN
@@ -38,10 +38,10 @@ Success: You grab the key and escape from the room. +1 DEX
 Fail: The shadow grasps you, slowing down your escape. -1 SAN
 B: Examine the shadows for weaknesses (Need at least 6 INT)
 Success: You notice the shadows are illusions and dispel them. +1 INT
-Fail: The shadows warp your vision, confusing the group. -1 SAN for everyone
+Fail: The shadows warp your vision, confusing the group. everyone takes 5 damage to the torso
 C: Use a light spell to push back the shadows (Need at least 6 ARC)
 Success: The shadows retreat allowing the group to grab the key. +1 ARC
-Fail: The spell intensifies the darkness making the shadows more aggressive. -1 SAN for everyone
+Fail: The spell intensifies the darkness making the shadows more aggressive. everyone takes 5 damage to the torso
 
 Scenario 5: Combat!
 Monster: Crazed Patient | Location: Brewery
@@ -49,27 +49,29 @@ Health: 50x(numPlayers)
 Normal attack: do 8 damage to a player
 Special attack:
 Barrage: attack all players for 2+d6 damage
+
 Scenarios: Blood moon board
+
 Enchanted dagger hilt scenario 1: The enchanted dagger hilt rests on a dusty nightstand, but as soon as you approach, the room begins to shift, revealing a spectral figure that guards the hilt. (Master bedroom)
 A: Dodge the specter and grab the hilt (Need at least 7 DEX)
 Success: You grab the hilt and avoid the specter. +1 DEX
-Fail: The specter grabs you, sapping your strength. -2 SAN for everyone
+Fail: The specter grabs you, sapping your strength. everyone takes 10 damage to the torso
 B: Study the specter’s behavior for weaknesses (Need at least 8 INT)
 Success: You find a way to distract the specter, allowing someone to grab the hilt. +1 INT
-Fail: The specter becomes more aggressive. -2 SAN for everyone
+Fail: The specter becomes more aggressive. everyone takes 10 damage to the torso
 C: Use magic to banish the specter (Need at least 8 ARC)
 Success: The specter fades, allowing the group to take the hilt. +1 ARC
-Fail: The specter grows in power, and the room begins to warp. -2 SAN for everyone
+Fail: The specter grows in power, and the room begins to warp. everyone takes 10 damage to the torso
 Enchanted dagger hilt scenario 2: As you explore the Master Bedroom, you notice the walls begin to move, shifting in unnatural ways. The enchanted dagger hilt must be close, but the room is working against you. You must navigate the shifting space to find it.
 A: Move quickly through the shifting walls to find the hilt (Need at least 7 DEX)
 Success: You deftly weave through the moving walls, finding the nightstand where the hilt lies. +1 DEX
-Fail: You get trapped between the shifting walls, losing your bearings. -2 SAN for everyone
+Fail: You get trapped between the shifting walls, losing your bearings. everyone takes 10 damage to the torso
 B: Analyze the pattern of the shifting walls (Need at least 7 INT)
 Success: You figure out the pattern of the moving walls and guide the group safely to the nightstand. +1 INT
-Fail: The walls move unpredictably, confusing you further. -2 SAN for everyone
+Fail: The walls move unpredictably, confusing you further. everyone takes 10 damage to the torso
 C: Cast a spell to halt the shifting walls (Need at least 7 ARC)
 Success: Your magic stops the walls from moving long enough for the group to reach the nightstand. +1 ARC
-Fail: The walls resist your magic, shifting even more violently. -2 SAN for everyone
+Fail: The walls resist your magic, shifting even more violently. everyone takes 10 damage to the torso
 
 Enchanted dagger blade scenario 1: The enchanted dagger blade lies within a glass case in the armory. The moment you enter, the weapons on the walls animate and begin to attack.
 A: Dodge the flying weapons and smash the case (Need at least 8 DEX)
@@ -77,31 +79,31 @@ Success: You break the case and grab the blade. +1 DEX
 Fail: A weapon catches you, injuring you. +1 SAN for everyone.
 B: Find the mechanism controlling the weapons (Need at least 8 INT)
 Success: You disable the trap, stopping the weapons. +1 INT
-Fail: The mechanism is too complex, and the weapons continue their assault. -2 SAN for everyone.
+Fail: The mechanism is too complex, and the weapons continue their assault. everyone takes 10 damage to the torso.
 C: Use a spell to neutralize the weapons (Need at least 8 ARC)
 Success: The weapons fall to the ground, harmless. +1 ARC
 Fail: The spell backfires, making the weapons even faster. +1 SAN for everyone.
 Enchanted Dagger Blade scenario 2: As you step into the armory, an eerie silence falls over the room. The walls are lined with ancient weapons, but something feels off. You sense a trap is waiting to be triggered, but you must act carefully.
 A: Carefully walk across the room to avoid triggering a trap (Need at least 8 DEX)
 Success: You move silently across the room, avoiding any hidden triggers, reaching the glass case safely. +1 DEX
-Fail: A misstep causes the room to tremble, and you sense the weapons might soon react. -2 SAN for everyone
+Fail: A misstep causes the room to tremble, and you sense the weapons might soon react. everyone takes 10 damage to the torso
 B: Search the room for signs of traps before moving forward (Need at least 8 INT)
 Success: You notice subtle signs of a hidden mechanism and identify the safest path to the glass case. +1 INT
-Fail: You misread the signs, and the room seems even more dangerous than before. -2 SAN for everyone
+Fail: You misread the signs, and the room seems even more dangerous than before. everyone takes 10 damage to the torso
 C: Cast a protective spell to shield the group from any possible danger (Need at least 8 ARC)
 Success: Your spell creates a shield, allowing the group to safely approach the glass case. +1 ARC
-Fail: The spell fizzles out, making the room feel even more volatile. -2 SAN for everyone
+Fail: The spell fizzles out, making the room feel even more volatile. everyone takes 10 damage to the torso
 
 Attic Scenario: You reach the attic, hoping to find the buff potion or talisman, but the room is filled with a dark presence that clouds your mind. You can feel it trying to drain your sanity, and you must act quickly to resist it.
 A: Quickly escape the presence’s influence and find the item45 (Need at least 7 DEX)
 Success: You dodge through the shadows and grab the item, leaving the presence behind. +1 DEX
-Fail: The dark presence touches you, draining your energy. -2 SAN for everyone
+Fail: The dark presence touches you, draining your energy. everyone takes 10 damage.
 B: Study the presence to understand its nature (Need at least 7 INT)
 Success: You identify the source of its power and weaken it, allowing the group to proceed safely. +1 INT
-Fail: The presence overwhelms you, causing confusion and panic. -2 SAN for everyone
+Fail: The presence overwhelms you, causing confusion and panic. everyone takes 10 damage to the torso
 C: Use a protective spell to shield the group from the presence (Need at least 7 ARC)
 Success: Your spell holds the dark force at bay, giving everyone time to escape with the item. +1 ARC
-Fail: The spell backfires, intensifying the presence’s assault. -2 SAN for everyone
+Fail: The spell backfires, intensifying the presence’s assault. everyone takes 10 damage to the torso
 
 
 
