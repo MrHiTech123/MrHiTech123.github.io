@@ -104,14 +104,15 @@ GM: …Along with the rest of the fish in the pond
 Ezran: So how much XP is that worth?
 `
 ]
+
 function change_page(strip) {
   console.log(strip)
-  new_content = '<img id="strip" src="/strips/' + strip + '.png" width="600" height="800"><br><button onclick="change_page(1);">&lt&lt First</a>   <button onclick="change_page(' + (strip - 1) + ')">&lt Previous</a>   <button onclick="change_page(' + (parseInt(strip) + 1) + ')">Next &gt</a>   <button onclick="change_page(biggest);">Latest &gt&gt</button>'
+  new_content = '<img id="strip" src="strips/' + strip + '.png" width="600" height="800"><br><button onclick="change_page(1);">&lt&lt First</a>   <button onclick="change_page(' + (strip - 1) + ')">&lt Previous</a>   <button onclick="change_page(' + (parseInt(strip) + 1) + ')">Next &gt</a>   <button onclick="change_page(biggest);">Latest &gt&gt</button>'
   if (strip == 1) {
-    new_content = '<img id="strip" src="/strips/' + strip + '.png" width="600" height="800"><br><button onclick="change_page(' + (parseInt(strip) + 1) + ')">Next &gt</a>   <button onclick="change_page(biggest);">Latest &gt&gt</button>';
+    new_content = '<img id="strip" src="strips/' + strip + '.png" width="600" height="800"><br><button onclick="change_page(' + (parseInt(strip) + 1) + ')">Next &gt</a>   <button onclick="change_page(biggest);">Latest &gt&gt</button>';
   }
   if (strip == biggest) {
-    new_content = '<img id="strip" src="/strips/' + strip + '.png" width="600" height="800"><br><button onclick="change_page(1);">&lt&lt First</a>   <button onclick="change_page(' + (strip - 1) + ')">&lt Previous</button>   ';
+    new_content = '<img id="strip" src="strips/' + strip + '.png" width="600" height="800"><br><button onclick="change_page(1);">&lt&lt First</a>   <button onclick="change_page(' + (strip - 1) + ')">&lt Previous</button>   ';
   }
   
   document.title = 'Strip ' + strip + ' - Arcanums and Assassins';
