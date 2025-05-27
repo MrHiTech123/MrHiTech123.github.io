@@ -1,0 +1,67 @@
+.joinmailinglist {
+  cursor: pointer;
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: 210px;
+  background-image: url('/images/join_mailing_list_background.gif');
+}
+
+.joinmailinglist:hover {
+  background-image: url('/images/join_mailing_list_background_active.gif');
+}
+
+.bigger {
+  font-size: 200%;
+}
+
+table, tr, td {
+  border: 2px double blue;
+}
+
+h1, h2 {
+  color: rgb(160, 0, 255);
+}
+
+body {
+  background-color: aqua; 
+  padding-bottom: 10em;
+}
+
+a:hover, button:hover, input:hover, select:hover {
+  background-color: lime;
+}
+
+button, input, select {
+  background-color: yellow;
+}
+
+a:active, button:active, input:active, select:active {
+  background-color: magenta;
+}
+
+a:active {
+  color: black;
+}
+
+ul.a {
+  list-style-type: disc;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+.hebrew {
+  text-align: right;
+  float: right;
+}
+
+table.hebrew {
+    width: auto;
+    margin-right: 0px;
+}
+
+@font-face {
+  font-family: jedi;
+  src: url('/images/jedi.ttf')
+}

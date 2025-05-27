@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Join the Mailing List</title>
+    <link rel="stylesheet" href="https://frenchstudygames.mrhitech.repl.co/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/franceMap.ico">
+  </head>
+  <body>
+    <?php
+    // the message
+    $msg = "You have joined the french games mailing list!";
+    // use wordwrap() if lines are longer than 70 characters
+    $msg = wordwrap($msg,70);
+
+    // send email
+    mail($_POST['value'],"My subject", $msg);
+    $mlist = fopen('emails.txt', 'a+');
+    if ($_POST['value']) {
+      fwrite($mlist, $_POST['value'] . "\n");
+    }
+    fclose($mlist)
+    ?>
+    <div id="banner"></div>
+    <h2>Enter your email here:</h2>
+    <form method="post" action="">
+    <input type="text" name="value" placeholder="example@gmail.com">
+    <input type="submit">
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://frenchstudygames.mrhitech.repl.co/scripts/frbanner.js"></script>
+    <script src="/scripts/nocred.js"></script>
+    
+  </body>
+</html>
