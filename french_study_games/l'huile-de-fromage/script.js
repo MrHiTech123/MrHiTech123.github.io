@@ -1,6 +1,6 @@
 var amountoforange = 255, win, sizzle, started = false;
 function preload() {
-  sizzle = loadSound('/l\'huile-de-fromage/sizzle.mp3');
+  sizzle = loadSound('sizzle.mp3');
 }
 function setup() {
   win = createCanvas(window.innerWidth, window.innerHeight)
