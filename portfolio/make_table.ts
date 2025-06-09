@@ -5,14 +5,13 @@ document.writeln("<table>")
 
 var consts = {
 	image: {
-		ratio: 16/9,
 		first: {
 			height: 400,
-			width: consts.image.ratio * consts.image.first.height
+			width: 711
 		},
 		subsequent: {
 			height: 200,
-			width: consts.image.ratio * consts.image.subsequent.height
+			width: 355
 		}
 	}
 }
@@ -21,15 +20,10 @@ var consts = {
 var things_to_show: string[] = ["blockToppler"];
 
 var descriptions = {
-	"blockToppler": ""
-}
-
-descriptions.blockToppler = 
-`<h2>BlockToppler</h2>
+	"blockToppler": `<h2>BlockToppler</h2>
 <p>In this ragdoll game, the player controls each limb of the puppet individually,
-with the goal of throwing the ball at the tower of block and knocking it over.</p>
-
-`;
+with the goal of throwing the ball at the tower of block and knocking it over.</p>`
+}
 
 
 function tdWords(gameName: string) {
