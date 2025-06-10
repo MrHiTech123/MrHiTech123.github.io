@@ -1,23 +1,23 @@
 console.log("Start");
-document.writeln("<table>");
+document.writeln("<table class=\"main-table\">");
 var consts = {
     image: {
         first: {
-            height: 200,
-            width: 355
+            height: "66%",
+            width: "100%"
         },
         subsequent: {
-            height: 100,
-            width: 177
+            height: "33%",
+            width: "49.3%"
         }
     }
 };
 var things_to_show = ["blockToppler"];
 var descriptions = {
-    "blockToppler": "<h2>BlockToppler</h2>\n<p>In this ragdoll game, the player controls each limb of the puppet individually,\nwith the goal of throwing the ball at the tower of block and knocking it over.</p>"
+    "blockToppler": "<h2>BlockToppler</h2>\n<p>In this ragdoll game, the player controls each limb of the puppet individually,\nwith the goal of throwing the ball at the tower of block and knocking it over.</p>\n\n<br>\n<iframe width=\"560\" height=\"315\" \nsrc=\"https://www.youtube.com/embed/3dV7CsPlnF8?si=qcYYqO7FvWNfkE6Z\" \ntitle=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; \nautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; \nweb-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen class=\"video\"></iframe>\n"
 };
 function tdWords(gameName) {
-    document.writeln("<td>");
+    document.writeln("<td class=\"main-table\">");
     document.writeln(descriptions[gameName]);
     document.writeln("</td>");
 }
@@ -31,7 +31,7 @@ function gameImage(gameName, order) {
     return image(src, width, height);
 }
 function tdImages(gameName) {
-    document.writeln("<td>");
+    document.writeln("<td class=\"main-table\">");
     document.writeln(gameImage(gameName, 0));
     document.writeln("<br>");
     document.writeln(gameImage(gameName, 1));
@@ -39,7 +39,7 @@ function tdImages(gameName) {
     document.writeln("</td>");
 }
 for (var i = 0; i < things_to_show.length; ++i) {
-    document.writeln("<tr>");
+    document.writeln("<tr class=\"main-table\">");
     var gameName = things_to_show[i];
     if (i % 2 == 0) {
         tdWords(gameName);

@@ -1,0 +1,36 @@
+
+
+.main-table {
+	border: 5px solid red;
+	background-color: gray;
+	overflow: hidden;
+}
+
+table.main-table {
+	border-collapse: collapse;
+	margin: auto;
+	table-layout: fixed;
+	max-width: 75%;
+}
+
+tr.main-table {
+	max-width: 75%;
+}
+
+td.main-table {
+	width: 37.5%;
+}
+
+p, h2 {
+	margin-left: 5px;
+}
+
+.video {
+	margin: auto;
+	display: block;
+}
+
+
+
+
+
