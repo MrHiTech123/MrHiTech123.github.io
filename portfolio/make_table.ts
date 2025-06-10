@@ -6,12 +6,12 @@ document.writeln("<table>")
 var consts = {
 	image: {
 		first: {
-			height: 400,
-			width: 711
-		},
-		subsequent: {
 			height: 200,
 			width: 355
+		},
+		subsequent: {
+			height: 100,
+			width: 177
 		}
 	}
 }
@@ -35,11 +35,11 @@ function tdWords(gameName: string) {
 }
 
 function image(src: string, width: number, height: number) : string {
-	return "<img src=\"" + src + "\">";
+	return "<img src=\"" + src + "\" width=" + width + " height=" + height + ">";
 }
 
 function gameImage(gameName: string, order: number) : string {
-	var src: string = "images/" + gameName + "_" + order;
+	var src: string = "images/" + gameName + "_" + order + ".jpg";
 	
 	var width: number = order? consts.image.subsequent.width : consts.image.first.width;
 	var height: number = order? consts.image.subsequent.height : consts.image.first.height;

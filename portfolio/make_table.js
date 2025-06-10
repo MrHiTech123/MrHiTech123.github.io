@@ -3,12 +3,12 @@ document.writeln("<table>");
 var consts = {
     image: {
         first: {
-            height: 400,
-            width: 711
-        },
-        subsequent: {
             height: 200,
             width: 355
+        },
+        subsequent: {
+            height: 100,
+            width: 177
         }
     }
 };
@@ -22,10 +22,10 @@ function tdWords(gameName) {
     document.writeln("</td>");
 }
 function image(src, width, height) {
-    return "<img src=\"" + src + "\">";
+    return "<img src=\"" + src + "\" width=" + width + " height=" + height + ">";
 }
 function gameImage(gameName, order) {
-    var src = "images/" + gameName + "_" + order;
+    var src = "images/" + gameName + "_" + order + ".jpg";
     var width = order ? consts.image.subsequent.width : consts.image.first.width;
     var height = order ? consts.image.subsequent.height : consts.image.first.height;
     return image(src, width, height);
