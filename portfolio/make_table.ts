@@ -40,8 +40,7 @@ with the goal of throwing the ball at the tower of block and knocking it over.</
 <p><a href="https://mrhitech.itch.io/block-toppler">Download here</a></p>
 
 <br>
-` + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8") + `
-`,
+` + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8"),
 
 	"dieRoll": `<h2>DieRoll</h2>
 <p>A Casio calculator app that can be used to roll dice of all sorts.
@@ -52,8 +51,7 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 
 <br>
 
-` + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8") + `
-`
+` + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8")
 }
 
 
