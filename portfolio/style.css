@@ -19,15 +19,22 @@ tr.main-table {
 
 td.main-table {
 	width: 37.5%;
+	position: relative;
+	vertical-align: top;
 }
 
 p, h2 {
-	margin-left: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .video {
-	margin: auto;
 	display: block;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	aspect-ratio: 16 / 9;
 }
 
 body {
