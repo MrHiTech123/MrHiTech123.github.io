@@ -14,8 +14,8 @@ var consts = {
     },
     projects: {
         all: ["blockToppler", "dieRoll"],
-        calculator_programs: ["dieRoll"],
-        games: ["blockToppler"]
+        games: ["blockToppler"],
+        calculator_programs: ["dieRoll"]
     }
 };
 function youtube_video_element(url) {
