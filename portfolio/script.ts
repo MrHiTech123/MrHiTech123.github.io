@@ -48,6 +48,8 @@ The program also includes additional buttons to roll hundred-sided dice, statist
 For games in which only six-sided dice are used, a special submenu is included that makes those options more readily available. The program is easy to use, 
 with a user interface that prioritizes intuitiveness at every level.</p>
 
+<p><a href="https://www.planet-casio.com/Fr/programmes/programme4271-1-dieroll-mrhitech-utilitaires-divers.html">Download here</a></p>
+
 <br>
 
 ` + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8")
@@ -95,7 +97,7 @@ function tdImages(gameName: string) : string {
 }
 
 
-function make_table(things_to_show: string[]) : string {
+function make_table_content(things_to_show: string[]) : string {
 	var to_return: string = "";
 	
 	for (var i = 0; i < things_to_show.length; ++i) {
@@ -117,6 +119,73 @@ function make_table(things_to_show: string[]) : string {
 	return to_return;
 }
 
+function clear_top_bar() {
+	var top_bar_content = <HTMLDivElement>document.getElementById("top-bar");
+	top_bar_content.innerHTML = "";
+}
+
+function capitalize(to_capitalize: string) : string {
+	return to_capitalize.charAt(0).toUpperCase() + to_capitalize.slice(1).toLowerCase();
+}
+
+function stringify_arr_of_strings(arr: string[]) : string {
+	var to_return: string = "[";
+	
+	for (var i in arr) {
+		to_return += ("\"" + arr[i] + "\", ");
+	}
+	
+	to_return += "]";
+	
+	console.log(to_return);
+	
+	return to_return;
+}
+
+function replace(to_be_replaced: string, to_replace: string, replace_with: string) : string {
+	return to_be_replaced.split(to_replace).join(replace_with);
+}
+
+function replace_double_quotes_with_single(to_add_backslashes: string) : string {
+	return replace(to_add_backslashes, "\"", "'")
+}
+
+function put_spaces_and_capitalize(snake_case: string) : string {
+	var words = snake_case.split("_");
+	
+	for (var word in words) {
+		words[word] = capitalize(words[word]);
+	}
+	
+	return words.join(" ");
+}
+
+function make_top_bar_button(project_list_name: string) : string {
+	var project_list: string[] = consts.projects[project_list_name];
+	
+	return "<button onclick=\"draw_table(" + 
+		replace_double_quotes_with_single(stringify_arr_of_strings(project_list)) + 
+		");\">" + put_spaces_and_capitalize(project_list_name) + "</button>\n"
+}
+
+function make_top_bar_content() : string {
+	var to_return: string = "";
+	
+	for (var project_list_name in consts.projects) {
+		to_return += make_top_bar_button(project_list_name);
+	}
+		
+	return to_return;
+}
+
+function draw_top_bar() {
+	clear_top_bar();
+	var top_bar_content: string = make_top_bar_content();
+	var top_bar_element = <HTMLDivElement>document.getElementById("top-bar");
+	top_bar_element.innerHTML = top_bar_content;
+}
+
+
 function clear_table() {
 	var table_element: any = document.getElementById("main-table");
 	table_element.innerHTML = "";
@@ -124,13 +193,18 @@ function clear_table() {
 
 function draw_table(things_to_show: string[]) {
 	clear_table();
-	var table_content: string = make_table(things_to_show);
-	var table_element: any = document.getElementById("main-table");
+	var table_content: string = make_table_content(things_to_show);
+	var table_element = <HTMLTableElement>document.getElementById("main-table");
 	table_element.innerHTML = table_content;
 }
 
+function main() {
+	draw_top_bar();
+	draw_table(consts.projects.all);
+}
 
-draw_table(consts.projects.all);
 
+console.log("Working")
+main();
 
 
