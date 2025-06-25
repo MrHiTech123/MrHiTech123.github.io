@@ -19,7 +19,6 @@ var consts = {
 		calculator_programs: ["dieRoll"],
 		games: ["blockToppler"]
 	}
-	
 }
 
 function youtube_video_element(url: string) : string {
@@ -32,7 +31,7 @@ web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen clas
 
 
 
-var descriptions = {
+var project_descriptions = {
 	"blockToppler": `<h2>BlockToppler</h2>
 <p>In this ragdoll game, the player controls each limb of the puppet individually,
 with the goal of throwing the ball at the tower of block and knocking it over.</p>
@@ -56,11 +55,15 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 
 
 function tdWords(gameName: string) {
-	document.writeln("<td class=\"main-table\">");
+	var to_return: string = "";
 	
-	document.writeln(descriptions[gameName])
+	to_return += ("<td class=\"main-table\">");
 	
-	document.writeln("</td>");
+	to_return += (project_descriptions[gameName])
+	
+	to_return += ("</td>");
+	
+	return to_return;
 }
 
 function image(src: string, width: string, height: string) : string {
@@ -76,39 +79,58 @@ function gameImage(gameName: string, order: number) : string {
 	return image(src, width, height);
 }
 
-function tdImages(gameName: string) {
-	document.writeln("<td class=\"main-table\">");
+function tdImages(gameName: string) : string {
+	var to_return: string = "";
+	to_return += ("<td class=\"main-table\">");
 	
-	document.writeln(gameImage(gameName, 0));
-	document.writeln("<br>");
+	to_return += (gameImage(gameName, 0));
+	to_return += ("<br>");
 	
-	document.writeln(gameImage(gameName, 1));
-	document.writeln(gameImage(gameName, 2));
+	to_return += (gameImage(gameName, 1));
+	to_return += (gameImage(gameName, 2));
 	
-	document.writeln("</td>");
+	to_return += ("</td>");
+	
+	return to_return;
 }
 
 
-function draw_table(things_to_show: string[]) {
-	document.writeln("<table class=\"main-table\">")
+function make_table(things_to_show: string[]) : string {
+	var to_return: string = "";
 	
 	for (var i = 0; i < things_to_show.length; ++i) {
-		document.writeln("<tr class=\"main-table\">");
+		to_return += "<tr class=\"main-table\">";
 		var gameName: string = things_to_show[i]
 		
 		if (i % 2 == 0) {
-			tdWords(gameName);
-			tdImages(gameName);
+			to_return += tdWords(gameName);
+			to_return += tdImages(gameName);
 		}
 		else {
-			tdImages(gameName);
-			tdWords(gameName);
+			to_return += tdImages(gameName);
+			to_return += tdWords(gameName);
 		}
 		
-		document.writeln("</tr>")
+		to_return += "</tr>"
 	}
 	
-	document.writeln("</table>")
+	return to_return;
 }
 
+function clear_table() {
+	var table_element: any = document.getElementById("main-table");
+	table_element.innerHTML = "";
+}
+
+function draw_table(things_to_show: string[]) {
+	clear_table();
+	var table_content: string = make_table(things_to_show);
+	var table_element: any = document.getElementById("main-table");
+	table_element.innerHTML = table_content;
+}
+
+
 draw_table(consts.projects.all);
+
+
+
