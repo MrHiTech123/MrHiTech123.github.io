@@ -2,8 +2,9 @@
 
 .main-table {
 	border: 5px solid red;
-	background-color: gray;
+	background-color: yellow;
 	overflow: hidden;
+	z-index: 1;
 }
 
 table.main-table {
@@ -39,7 +40,55 @@ p, h2 {
 
 body {
 	background-color: navy;
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
 }
+
+div.navbar-outer {
+	background-color: gray;
+	position: fixed;
+	top: 0;
+	margin-left: 0%;
+	margin-top: 0%;
+	z-index: 10;
+	width: 100%;
+	min-height: 50px;
+}
+
+div.navbar-inner {
+	width: 90%;
+	margin: 10px;
+}
+
+button.navbar-inner {
+	margin: 0px;
+	background-color: red;
+	border: none;
+	width: auto;
+	min-width: 100px;
+	height: 25px;
+	position: relative;
+	bottom: 0px;
+}
+
+button.navbar-inner:active {
+	background-color: yellow;
+}
+
+.marginless {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	display: inline;
+}
+
+.top-title {
+	text-align: center;
+	color: lime;
+	font-size: 100px;
+	margin-top: 100px;
+}
+
 
 
 

@@ -36,7 +36,7 @@ function image(src, width, height) {
     return "<img src=\"" + src + "\" width=" + width + " height=" + height + ">";
 }
 function gameImage(gameName, order) {
-    var src = "images/" + gameName + "_" + order + ".jpg";
+    var src = "assets/images/" + gameName + "_" + order + ".jpg";
     var width = (order == 0) ? consts.image.first.width : consts.image.subsequent.width;
     var height = (order == 0) ? consts.image.first.height : consts.image.subsequent.height;
     return image(src, width, height);
@@ -69,7 +69,7 @@ function make_table_content(things_to_show) {
     return to_return;
 }
 function clear_top_bar() {
-    var top_bar_content = document.getElementById("top-bar");
+    var top_bar_content = document.getElementById("navbar-inner");
     top_bar_content.innerHTML = "";
 }
 function capitalize(to_capitalize) {
@@ -87,8 +87,8 @@ function stringify_arr_of_strings(arr) {
 function replace(to_be_replaced, to_replace, replace_with) {
     return to_be_replaced.split(to_replace).join(replace_with);
 }
-function replace_double_quotes_with_single(to_add_backslashes) {
-    return replace(to_add_backslashes, "\"", "'");
+function singlify_quotes(to_replace_quotes) {
+    return replace(to_replace_quotes, "\"", "'");
 }
 function put_spaces_and_capitalize(snake_case) {
     var words = snake_case.split("_");
@@ -98,13 +98,12 @@ function put_spaces_and_capitalize(snake_case) {
     return words.join(" ");
 }
 function make_top_bar_button(project_list_name) {
-    var project_list = consts.projects[project_list_name];
-    return "<button onclick=\"draw_table(" +
-        replace_double_quotes_with_single(stringify_arr_of_strings(project_list)) +
+    return "<button class=\"navbar-inner\" onclick=\"draw_table(consts.projects." + project_list_name +
         ");\">" + put_spaces_and_capitalize(project_list_name) + "</button>\n";
 }
 function make_top_bar_content() {
-    var to_return = "";
+    var to_return = "<h2 class=\"marginless\">Filters</h2>\n";
+    // var to_return: string = "";
     for (var project_list_name in consts.projects) {
         to_return += make_top_bar_button(project_list_name);
     }
@@ -113,7 +112,7 @@ function make_top_bar_content() {
 function draw_top_bar() {
     clear_top_bar();
     var top_bar_content = make_top_bar_content();
-    var top_bar_element = document.getElementById("top-bar");
+    var top_bar_element = document.getElementById("navbar-inner");
     top_bar_element.innerHTML = top_bar_content;
 }
 function clear_table() {

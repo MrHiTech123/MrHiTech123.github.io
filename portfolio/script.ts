@@ -55,7 +55,6 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 ` + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8")
 }
 
-
 function tdWords(gameName: string) {
 	var to_return: string = "";
 	
@@ -73,7 +72,7 @@ function image(src: string, width: string, height: string) : string {
 }
 
 function gameImage(gameName: string, order: number) : string {
-	var src: string = "images/" + gameName + "_" + order + ".jpg";
+	var src: string = "assets/images/" + gameName + "_" + order + ".jpg";
 	
 	var width: string = (order == 0)? consts.image.first.width : consts.image.subsequent.width;
 	var height: string = (order == 0)? consts.image.first.height : consts.image.subsequent.height;
@@ -120,7 +119,7 @@ function make_table_content(things_to_show: string[]) : string {
 }
 
 function clear_top_bar() {
-	var top_bar_content = <HTMLDivElement>document.getElementById("top-bar");
+	var top_bar_content = <HTMLDivElement>document.getElementById("navbar-inner");
 	top_bar_content.innerHTML = "";
 }
 
@@ -146,8 +145,8 @@ function replace(to_be_replaced: string, to_replace: string, replace_with: strin
 	return to_be_replaced.split(to_replace).join(replace_with);
 }
 
-function replace_double_quotes_with_single(to_add_backslashes: string) : string {
-	return replace(to_add_backslashes, "\"", "'")
+function singlify_quotes(to_replace_quotes: string) : string {
+	return replace(to_replace_quotes, "\"", "'")
 }
 
 function put_spaces_and_capitalize(snake_case: string) : string {
@@ -160,16 +159,14 @@ function put_spaces_and_capitalize(snake_case: string) : string {
 	return words.join(" ");
 }
 
-function make_top_bar_button(project_list_name: string) : string {
-	var project_list: string[] = consts.projects[project_list_name];
-	
-	return "<button onclick=\"draw_table(" + 
-		replace_double_quotes_with_single(stringify_arr_of_strings(project_list)) + 
+function make_top_bar_button(project_list_name: string) : string {	
+	return "<button class=\"navbar-inner\" onclick=\"draw_table(consts.projects." + project_list_name +
 		");\">" + put_spaces_and_capitalize(project_list_name) + "</button>\n"
 }
 
 function make_top_bar_content() : string {
-	var to_return: string = "";
+	var to_return: string = "<h2 class=\"marginless\">Filters</h2>\n";
+	// var to_return: string = "";
 	
 	for (var project_list_name in consts.projects) {
 		to_return += make_top_bar_button(project_list_name);
@@ -181,7 +178,7 @@ function make_top_bar_content() : string {
 function draw_top_bar() {
 	clear_top_bar();
 	var top_bar_content: string = make_top_bar_content();
-	var top_bar_element = <HTMLDivElement>document.getElementById("top-bar");
+	var top_bar_element = <HTMLDivElement>document.getElementById("navbar-inner");
 	top_bar_element.innerHTML = top_bar_content;
 }
 
