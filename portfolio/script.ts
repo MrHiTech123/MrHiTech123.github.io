@@ -15,8 +15,8 @@ var consts = {
 		width: "100%"
 	},
 	projects: {
-		all: ["blockToppler", "dieRoll"],
-		games: ["blockToppler"],
+		all: ["ninjaCoinJumper", "blockToppler", "dieRoll"],
+		games: ["ninjaCoinJumper", "blockToppler"],
 		calculator_programs: ["dieRoll"]
 	}
 }
@@ -33,12 +33,12 @@ web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen clas
 
 var project_descriptions = {
 	"blockToppler": `<h2>BlockToppler</h2>
-<p>In this ragdoll game, the player controls each limb of the puppet individually,
-with the goal of throwing the ball at the tower of block and knocking it over.</p>
+<p>A ragdoll game made in Unity. The player controls each limb of the puppet individually,
+with the goal of throwing the ball at the tower of blocks and knocking them over.</p>
 
 <p><a href="https://mrhitech.itch.io/block-toppler">Download here</a></p>
 
-<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> PLACEHOLDER
 ` + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8"),
 
 	"dieRoll": `<h2>DieRoll</h2>
@@ -50,9 +50,15 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 
 <p><a href="https://www.planet-casio.com/Fr/programmes/programme4271-1-dieroll-mrhitech-utilitaires-divers.html">Download here</a></p>
 
-<br>
+` + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8"),
 
-` + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8")
+	"ninjaCoinJumper": `<h2>Ninja Coin Jumper</h2>
+<p>A platformer made in Unity in which the player traverses through
+a variety of environments with their metal-repelling powers.</p>
+
+<p><a href="https://mrhitech.itch.io/ninja-coin-jumper">Download here</a></p>
+
+	` + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg")
 }
 
 function tdWords(gameName: string) {
@@ -123,7 +129,7 @@ function clear_top_bar() {
 	top_bar_content.innerHTML = "";
 }
 
-function capitalize(to_capitalize: string) : string {
+function capitalize(to_capitalize: string) : string {	
 	return to_capitalize.charAt(0).toUpperCase() + to_capitalize.slice(1).toLowerCase();
 }
 
@@ -184,7 +190,7 @@ function draw_top_bar() {
 
 
 function clear_table() {
-	var table_element: any = document.getElementById("main-table");
+	var table_element = <HTMLTableElement>document.getElementById("main-table");
 	table_element.innerHTML = "";
 }
 

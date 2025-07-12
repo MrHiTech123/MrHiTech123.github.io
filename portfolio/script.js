@@ -13,8 +13,8 @@ var consts = {
         width: "100%"
     },
     projects: {
-        all: ["blockToppler", "dieRoll"],
-        games: ["blockToppler"],
+        all: ["ninjaCoinJumper", "blockToppler", "dieRoll"],
+        games: ["ninjaCoinJumper", "blockToppler"],
         calculator_programs: ["dieRoll"]
     }
 };
@@ -22,8 +22,9 @@ function youtube_video_element(url) {
     return "<iframe width=\"" + consts.video.width + "\" marginwidth=\"0\"\nsrc=\"" + url + "\" \ntitle=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; \nautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; \nweb-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen class=\"video\"></iframe>";
 }
 var project_descriptions = {
-    "blockToppler": "<h2>BlockToppler</h2>\n<p>In this ragdoll game, the player controls each limb of the puppet individually,\nwith the goal of throwing the ball at the tower of block and knocking it over.</p>\n\n<p><a href=\"https://mrhitech.itch.io/block-toppler\">Download here</a></p>\n\n<br>\n" + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8"),
-    "dieRoll": "<h2>DieRoll</h2>\n<p>A Casio calculator app that can be used to roll dice of all sorts.\nFeatures the ability to roll up to 9 of any type of polyhedral die at once, as well as to roll with advantage, disadvantage, or emphasis.\nThe program also includes additional buttons to roll hundred-sided dice, statistics for Dungeons and Dragons characters, and the dice for the board game Root.\nFor games in which only six-sided dice are used, a special submenu is included that makes those options more readily available. The program is easy to use, \nwith a user interface that prioritizes intuitiveness at every level.</p>\n\n<p><a href=\"https://www.planet-casio.com/Fr/programmes/programme4271-1-dieroll-mrhitech-utilitaires-divers.html\">Download here</a></p>\n\n<br>\n\n" + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8")
+    "blockToppler": "<h2>BlockToppler</h2>\n<p>A ragdoll game made in Unity. The player controls each limb of the puppet individually,\nwith the goal of throwing the ball at the tower of blocks and knocking them over.</p>\n\n<p><a href=\"https://mrhitech.itch.io/block-toppler\">Download here</a></p>\n\n<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> PLACEHOLDER\n" + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8"),
+    "dieRoll": "<h2>DieRoll</h2>\n<p>A Casio calculator app that can be used to roll dice of all sorts.\nFeatures the ability to roll up to 9 of any type of polyhedral die at once, as well as to roll with advantage, disadvantage, or emphasis.\nThe program also includes additional buttons to roll hundred-sided dice, statistics for Dungeons and Dragons characters, and the dice for the board game Root.\nFor games in which only six-sided dice are used, a special submenu is included that makes those options more readily available. The program is easy to use, \nwith a user interface that prioritizes intuitiveness at every level.</p>\n\n<p><a href=\"https://www.planet-casio.com/Fr/programmes/programme4271-1-dieroll-mrhitech-utilitaires-divers.html\">Download here</a></p>\n\n" + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8"),
+    "ninjaCoinJumper": "<h2>Ninja Coin Jumper</h2>\n<p>A platformer made in Unity in which the player traverses through\na variety of environments with their metal-repelling powers.</p>\n\n<p><a href=\"https://mrhitech.itch.io/ninja-coin-jumper\">Download here</a></p>\n\n\t" + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg")
 };
 function tdWords(gameName) {
     var to_return = "";
