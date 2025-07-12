@@ -1,0 +1,72 @@
+.shop {
+    height: 350px;
+    width: 650px;
+    overflow: scroll;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    z-index: 10;
+    font-size: 25px;
+    background-color: gray;
+}
+
+.shop-text{
+  position: absolute;
+  height: 0px;
+  width: 200;
+  top: -10px;
+  left: 400px;
+  text-align: center;
+  font-size:15px;
+  margin-left: 10px;
+  background-color: black;
+  font-family: cloisterblack;
+  
+}
+@font-face {
+  font-family: cloisterblack;
+  src: url("/assets/font.ttf");
+}
+.about{
+  position: absolute;
+  width: 1040px;
+  top:400px;
+  left: 0;
+  text-align: left;
+  font-size:15px;
+  padding:5px;
+  margin-top:5px;
+  border: 4px solid #0aff33;
+  background:#918d8d
+  
+}
+
+.clicker {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    z-index: 9;
+}
+.shopbutton {
+  font-size: 25px;
+  width: 300px;
+  text-align: left;
+  background-color: gray;
+}
+body {
+  margin: 0px;
+  background-color: lightgray;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+.shoptable {
+    border: 3px solid red;
+}
