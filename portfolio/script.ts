@@ -15,8 +15,8 @@ var consts = {
 		width: "100%"
 	},
 	projects: {
-		all: ["ninjaCoinJumper", "blockToppler", "dieRoll"],
-		games: ["ninjaCoinJumper", "blockToppler"],
+		all: ["ninjaCoinJumper", "carbonClicker", "blockToppler", "dieRoll"],
+		games: ["ninjaCoinJumper", "carbonClicker", "blockToppler"],
 		calculator_programs: ["dieRoll"]
 	}
 }
@@ -40,7 +40,19 @@ with the goal of throwing the ball at the tower of blocks and knocking them over
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> PLACEHOLDER
 ` + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8"),
+	"carbonClicker": `<h2>Carbon Clicker</h2>
+<p>A p5js game centered around increasing the rate of global warming.
+At first, the player must produce pollution by breathing. Pollution can then
+be spent on other things that automatically produce pollution, from cattle farming and airplanes,
+to hazardous chemicals and fracking, to portals to other dimensions and finally the Plasticmageddon.</p>
 
+<p>This game was awarded "Best Overall" at HackTrin Hackathon IX.</p>
+
+<p><a href="https://mrhitech.itch.io/carbon-clicker">Play here</a></p>
+
+
+`,
+	
 	"dieRoll": `<h2>DieRoll</h2>
 <p>A Casio calculator app that can be used to roll dice of all sorts.
 Features the ability to roll up to 9 of any type of polyhedral die at once, as well as to roll with advantage, disadvantage, or emphasis.
@@ -129,10 +141,6 @@ function clear_top_bar() {
 	top_bar_content.innerHTML = "";
 }
 
-function capitalize(to_capitalize: string) : string {	
-	return to_capitalize.charAt(0).toUpperCase() + to_capitalize.slice(1).toLowerCase();
-}
-
 function stringify_arr_of_strings(arr: string[]) : string {
 	var to_return: string = "[";
 	
@@ -153,6 +161,10 @@ function replace(to_be_replaced: string, to_replace: string, replace_with: strin
 
 function singlify_quotes(to_replace_quotes: string) : string {
 	return replace(to_replace_quotes, "\"", "'")
+}
+
+function capitalize(to_capitalize: string) : string {	
+	return to_capitalize.charAt(0).toUpperCase() + to_capitalize.slice(1).toLowerCase();
 }
 
 function put_spaces_and_capitalize(snake_case: string) : string {
