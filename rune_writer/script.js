@@ -49,10 +49,10 @@ var keybreak = false;
 
 var floor, player;
 function preload() {
-    floor_pic = loadImage('https://i.imgur.com/e8bs4T7.jpg')
-    wizard_sprites= [loadImage('https://i.imgur.com/zkETQUG.png')]
-    enemy_sprites = [loadImage('https://i.imgur.com/aMs0dxm.png'), loadImage('https://i.imgur.com/9UIVQUu.png'), loadImage('https://i.imgur.com/AkDl0Eu.png')]
-    fireball_sprites = [loadImage('https://i.imgur.com/N9DYWGo.png')]
+    floor_pic = loadImage('assets/floor.jpg')
+    wizard_sprites= [loadImage('assets/wizard.png')]
+    enemy_sprites = [loadImage('assets/knight1.png'), loadImage('assets/knight2.png'), loadImage('assets/knight3.png')]
+    fireball_sprites = [loadImage('assets/fireball.png')]
     font = loadFont('/assets/Symbola.ttf')
 
 }
