@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runecraft Documentation</title>
+</head>
+<body>
+    <p>You might want to keep this open in a seperate tab. Sorry that I didn't do that automatically</p>
+    <p>shoot(thing_youre_shooting, damage, speed, angle=0)</p>
+
+    <p>thing_youre_shooting = the projectile. The only currently available option is "fire".</p>
+    <p>damage = how much damage the thing you shoot should deal</p>
+    <p>speed = the speed of the projectile in pixels per frame (1 pixel per frame = 30 pixels per second)</p>
+    <p>angle (optional) = how many radians clockwise of your mouse the fireball should shoot; the current default is 0, which means that the projectile will be shot in the direction of your mouse.</p>
+    
+    <p>For each projectile a spell creates, the spell costs 1 mana per damage it deals and 2 mana per pixel it travels per frame. Angle does not contribute to mana cost. The player has a maximum mana of 100 and recovers 1 mana per frame. Spells also require 1 frame to cast per mana they cost. For example, a spell that costs 60 mana takes 60 frames (2 seconds) to cast.</p>
+    <br>
+    <br>
+    
+    <p>For loops work the same way as in Javascript:
+
+        <p><code>
+            <p>for (loop_variable in iterable) {</p>
+            <p>    execute_code_according_to_(loop_variable)</p>
+            <p>}</p>
+        </code></p>
+
+
+    </p>
+</body>
+</html>
