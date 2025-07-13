@@ -63,7 +63,8 @@ div.navbar-inner {
 
 button.navbar-inner {
 	margin: 0px;
-	background-color: red;
+	color: darkmagenta;
+	background-color: aqua;
 	border: none;
 	width: auto;
 	min-width: 100px;

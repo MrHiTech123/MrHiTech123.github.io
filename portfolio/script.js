@@ -101,7 +101,7 @@ function put_spaces_and_capitalize(snake_case) {
 }
 function make_top_bar_button(project_list_name) {
     return "<button class=\"navbar-inner\" onclick=\"draw_table(consts.projects." + project_list_name +
-        ");\">" + put_spaces_and_capitalize(project_list_name) + "</button>\n";
+        ");\"><b>" + put_spaces_and_capitalize(project_list_name) + "</b></button>\n";
 }
 function make_top_bar_content() {
     var to_return = "<h2 class=\"marginless\">Filters</h2>\n";
