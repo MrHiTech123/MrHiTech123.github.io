@@ -53,7 +53,7 @@ function preload() {
     wizard_sprites= [loadImage('assets/wizard.png')]
     enemy_sprites = [loadImage('assets/knight1.png'), loadImage('assets/knight2.png'), loadImage('assets/knight3.png')]
     fireball_sprites = [loadImage('assets/fireball.png')]
-    font = loadFont('/assets/Symbola.ttf')
+    font = loadFont('assets/Symbola.ttf')
 
 }
 
