@@ -17,8 +17,8 @@ var consts = {
 	project_lists: {
 		all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "blockToppler", "dieRoll"],
 		games: ["ninjaCoinJumper", "carbonClicker", "blockToppler"],
-		calculator_programs: ["dieRoll"],
-		minecraft_mods: ["artisanal"]
+		minecraft_mods: ["artisanal"],
+		calculator_programs: ["dieRoll"]
 	}
 }
 
