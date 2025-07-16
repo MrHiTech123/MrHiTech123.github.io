@@ -12,16 +12,18 @@ var consts = {
     video: {
         width: "100%"
     },
-    projects: {
-        all: ["ninjaCoinJumper", "carbonClicker", "blockToppler", "dieRoll"],
+    project_lists: {
+        all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "blockToppler", "dieRoll"],
         games: ["ninjaCoinJumper", "carbonClicker", "blockToppler"],
-        calculator_programs: ["dieRoll"]
+        calculator_programs: ["dieRoll"],
+        minecraft_mods: ["artisanal"]
     }
 };
 function youtube_video_element(url) {
     return "<iframe width=\"" + consts.video.width + "\" marginwidth=\"0\"\nsrc=\"" + url + "\" \ntitle=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; \nautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; \nweb-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen class=\"video\"></iframe>";
 }
 var project_descriptions = {
+    "artisanal": "<h2>Artisanal</h2>\n<p> A Minecraft modification (\"mod\") that enhances the realism of TerraFirmaCraft by adding various chemical processes and technologies.</p>\n\n<p> This mod adds additional branches to the TerraFirmaCraft technology tree, such as soapmaking, sugar production, and canning food. It also adds some completely new features, such as magnifying glasses and a fully data-driven juicing system. </p>\n\n<p><a href=\"https://www.curseforge.com/minecraft/mc-mods/tfc-artisanal\">Download here</a></p>\n<p><a href=\"https://terrafirmacraft.github.io/Field-Guide/en_us/artisanal/\">Read the field guide here</a> (Note that some pages are unable to load properly in the online version).</p>\n<p><a href=\"https://github.com/MrHiTech123/Artisanal\">View source code here</a></p>\n\n",
     "blockToppler": "<h2>BlockToppler</h2>\n<p>A ragdoll game made in Unity. The player controls each limb of the puppet individually,\nwith the goal of throwing the ball at the tower of blocks and knocking them over.</p>\n\n<p><a href=\"https://mrhitech.itch.io/block-toppler\">Download here</a></p>\n\n<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> PLACEHOLDER\n" + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8"),
     "carbonClicker": "<h2>Carbon Clicker</h2>\n<p>A p5js game centered around increasing the rate of global warming.\nAt first, the player must produce pollution by breathing. Pollution can then\nbe spent on other things that automatically produce pollution, from cattle farming and airplanes,\nto hazardous chemicals and fracking, to portals to other dimensions and finally the Plasticmageddon.</p>\n\n<p>This game was awarded \"Best Overall\" at HackTrin Hackathon IX.</p>\n\n<p><a href=\"https://mrhitech.itch.io/carbon-clicker\">Play here</a></p>\n\n\n",
     "dieRoll": "<h2>DieRoll</h2>\n<p>A Casio calculator app that can be used to roll dice of all sorts.\nFeatures the ability to roll up to 9 of any type of polyhedral die at once, as well as to roll with advantage, disadvantage, or emphasis.\nThe program also includes additional buttons to roll hundred-sided dice, statistics for Dungeons and Dragons characters, and the dice for the board game Root.\nFor games in which only six-sided dice are used, a special submenu is included that makes those options more readily available. The program is easy to use, \nwith a user interface that prioritizes intuitiveness at every level.</p>\n\n<p><a href=\"https://www.planet-casio.com/Fr/programmes/programme4271-1-dieroll-mrhitech-utilitaires-divers.html\">Download here</a></p>\n\n" + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8"),
@@ -100,13 +102,13 @@ function put_spaces_and_capitalize(snake_case) {
     return words.join(" ");
 }
 function make_top_bar_button(project_list_name) {
-    return "<button class=\"navbar-inner\" onclick=\"draw_table(consts.projects." + project_list_name +
+    return "<button class=\"navbar-inner\" onclick=\"draw_table(consts.project_lists." + project_list_name +
         ");\"><b>" + put_spaces_and_capitalize(project_list_name) + "</b></button>\n";
 }
 function make_top_bar_content() {
     var to_return = "<h2 class=\"marginless\">Filters</h2>\n";
     // var to_return: string = "";
-    for (var project_list_name in consts.projects) {
+    for (var project_list_name in consts.project_lists) {
         to_return += make_top_bar_button(project_list_name);
     }
     return to_return;
@@ -129,7 +131,7 @@ function draw_table(things_to_show) {
 }
 function main() {
     draw_top_bar();
-    draw_table(consts.projects.all);
+    draw_table(consts.project_lists.all);
 }
 console.log("Working");
 main();

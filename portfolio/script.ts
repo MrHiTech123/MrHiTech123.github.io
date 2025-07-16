@@ -14,10 +14,11 @@ var consts = {
 	video: {
 		width: "100%"
 	},
-	projects: {
-		all: ["ninjaCoinJumper", "carbonClicker", "blockToppler", "dieRoll"],
+	project_lists: {
+		all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "blockToppler", "dieRoll"],
 		games: ["ninjaCoinJumper", "carbonClicker", "blockToppler"],
-		calculator_programs: ["dieRoll"]
+		calculator_programs: ["dieRoll"],
+		minecraft_mods: ["artisanal"]
 	}
 }
 
@@ -32,6 +33,16 @@ web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen clas
 
 
 var project_descriptions = {
+	"artisanal": `<h2>Artisanal</h2>
+<p> A Minecraft modification ("mod") that enhances the realism of TerraFirmaCraft by adding various chemical processes and technologies.</p>
+
+<p> This mod adds additional branches to the TerraFirmaCraft technology tree, such as soapmaking, sugar production, and canning food. It also adds some completely new features, such as magnifying glasses and a fully data-driven juicing system. </p>
+
+<p><a href="https://www.curseforge.com/minecraft/mc-mods/tfc-artisanal">Download here</a></p>
+<p><a href="https://terrafirmacraft.github.io/Field-Guide/en_us/artisanal/">Read the field guide here</a> (Note that some pages are unable to load properly in the online version).</p>
+<p><a href="https://github.com/MrHiTech123/Artisanal">View source code here</a></p>
+
+`,
 	"blockToppler": `<h2>BlockToppler</h2>
 <p>A ragdoll game made in Unity. The player controls each limb of the puppet individually,
 with the goal of throwing the ball at the tower of blocks and knocking them over.</p>
@@ -178,7 +189,7 @@ function put_spaces_and_capitalize(snake_case: string) : string {
 }
 
 function make_top_bar_button(project_list_name: string) : string {	
-	return "<button class=\"navbar-inner\" onclick=\"draw_table(consts.projects." + project_list_name +
+	return "<button class=\"navbar-inner\" onclick=\"draw_table(consts.project_lists." + project_list_name +
 		");\"><b>" + put_spaces_and_capitalize(project_list_name) + "</b></button>\n"
 }
 
@@ -186,7 +197,7 @@ function make_top_bar_content() : string {
 	var to_return: string = "<h2 class=\"marginless\">Filters</h2>\n";
 	// var to_return: string = "";
 	
-	for (var project_list_name in consts.projects) {
+	for (var project_list_name in consts.project_lists) {
 		to_return += make_top_bar_button(project_list_name);
 	}
 		
@@ -215,7 +226,7 @@ function draw_table(things_to_show: string[]) {
 
 function main() {
 	draw_top_bar();
-	draw_table(consts.projects.all);
+	draw_table(consts.project_lists.all);
 }
 
 
