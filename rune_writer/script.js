@@ -232,7 +232,7 @@ function translate_component(component) {
 }
 
 function credits() {
-    window.location.href = '/credits'
+    openInNewTab('credits');
 }
 
 function translate_incantation(incantation) {
@@ -603,13 +603,17 @@ function mouseClicked() {
     }
 }
 
+function openInNewTab(url) {
+	window.open(url, "_blank").focus();
+}
+
 function keyPressed() {
     if (key == 'c' && won) {
         credits();
     }
     if (in_spellbook) {
         if (key == 'd') {
-            window.location.href = '/documentation'
+            openInNewTab('documentation')
         }
         if (key == ('ArrowUp')) {
             current_spell_index -= 1;
