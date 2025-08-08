@@ -15,9 +15,9 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "blockToppler", "dieRoll"],
-		games: ["ninjaCoinJumper", "carbonClicker", "blockToppler"],
-		minecraft_mods: ["artisanal"],
+		all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll"],
+		games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
+		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll"]
 	}
 }
@@ -43,6 +43,16 @@ var project_descriptions = {
 <p><a href="https://github.com/MrHiTech123/Artisanal">View source code here</a></p>
 
 `,
+	"betterStoneAge": `<h2>Better Stone Age</h2>
+<p>The early game of TerraFirmaCraft is extremely boring: many technologies are locked behind copper, so it can feel like there isn't enough to do
+during the stone age, especially if you're new and don't understand the mining system yet.</p>
+
+<p>This is the problem that Better Stone Age was made to solve. From decorated ceramic pots and early-game dyeing to a nonlinear tiered progression system for stone tools, Better Stone Age fleshes out the TerraFirmaCraft stone age by adding more ways to advance than just finding metal.</p>
+
+<p><a href="https://www.curseforge.com/minecraft/mc-mods/tfc-better-stone-age">Download here</a></p>
+<p><a href="https://github.com/MrHiTech123/BetterStoneAge">View source code here</a></p>
+
+	`,
 	"blockToppler": `<h2>BlockToppler</h2>
 <p>A ragdoll game made in Unity. The player controls each limb of the puppet individually,
 with the goal of throwing the ball at the tower of blocks and knocking them over.</p>
@@ -81,7 +91,14 @@ a variety of environments with their metal-repelling powers.</p>
 
 <p><a href="https://mrhitech.itch.io/ninja-coin-jumper">Download here</a></p>
 
-	` + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg")
+	` + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg"),
+	"runeWriter": `<h2>Rune Writer</h2>
+<p> A top-down combat game made in p5.js. The player is a wizard who fights enemy knights using a vast array of spells.
+Spells are programmed by the player in a runic language that TK to Javascript.</p>
+
+<p>Programmed for HackRPI 2023.</p>
+`
+	
 }
 
 function tdWords(gameName: string) {

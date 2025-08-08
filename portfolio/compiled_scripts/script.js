@@ -13,9 +13,9 @@ var consts = {
         width: "100%"
     },
     project_lists: {
-        all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "blockToppler", "dieRoll"],
-        games: ["ninjaCoinJumper", "carbonClicker", "blockToppler"],
-        minecraft_mods: ["artisanal"],
+        all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll"],
+        games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
+        minecraft_mods: ["artisanal", "betterStoneAge"],
         calculator_programs: ["dieRoll"]
     }
 };
@@ -24,10 +24,12 @@ function youtube_video_element(url) {
 }
 var project_descriptions = {
     "artisanal": "<h2>Artisanal</h2>\n<p> A Minecraft modification (\"mod\") that enhances the realism of TerraFirmaCraft by adding various chemical processes and technologies.</p>\n\n<p> This mod adds additional branches to the TerraFirmaCraft technology tree, such as soapmaking, sugar production, and canning food. It also adds some completely new features, such as magnifying glasses and a fully data-driven juicing system. </p>\n\n<p><a href=\"https://www.curseforge.com/minecraft/mc-mods/tfc-artisanal\">Download here</a></p>\n<p><a href=\"https://terrafirmacraft.github.io/Field-Guide/en_us/artisanal/\">Read the field guide here</a> (Note that some pages are unable to load properly in the online version).</p>\n<p><a href=\"https://github.com/MrHiTech123/Artisanal\">View source code here</a></p>\n\n",
+    "betterStoneAge": "<h2>Better Stone Age</h2>\n<p>The early game of TerraFirmaCraft is extremely boring: many technologies are locked behind copper, so it can feel like there isn't enough to do\nduring the stone age, especially if you're new and don't understand the mining system yet.</p>\n\n<p>This is the problem that Better Stone Age was made to solve. From decorated ceramic pots and early-game dyeing to a nonlinear tiered progression system for stone tools, Better Stone Age fleshes out the TerraFirmaCraft stone age by adding more ways to advance than just finding metal.</p>\n\n<p><a href=\"https://www.curseforge.com/minecraft/mc-mods/tfc-better-stone-age\">Download here</a></p>\n<p><a href=\"https://github.com/MrHiTech123/BetterStoneAge\">View source code here</a></p>\n\n\t",
     "blockToppler": "<h2>BlockToppler</h2>\n<p>A ragdoll game made in Unity. The player controls each limb of the puppet individually,\nwith the goal of throwing the ball at the tower of blocks and knocking them over.</p>\n\n<p><a href=\"https://mrhitech.itch.io/block-toppler\">Download here</a></p>\n\n<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> PLACEHOLDER\n" + youtube_video_element("https://www.youtube.com/embed/3dV7CsPlnF8"),
     "carbonClicker": "<h2>Carbon Clicker</h2>\n<p>A p5js game centered around increasing the rate of global warming.\nAt first, the player must produce pollution by breathing. Pollution can then\nbe spent on other things that automatically produce pollution, from cattle farming and airplanes,\nto hazardous chemicals and fracking, to portals to other dimensions and finally the Plasticmageddon.</p>\n\n<p>This game was awarded \"Best Overall\" at HackTrin Hackathon IX.</p>\n\n<p><a href=\"https://mrhitech.itch.io/carbon-clicker\">Play here</a></p>\n\n\n",
     "dieRoll": "<h2>DieRoll</h2>\n<p>A Casio calculator app that can be used to roll dice of all sorts.\nFeatures the ability to roll up to 9 of any type of polyhedral die at once, as well as to roll with advantage, disadvantage, or emphasis.\nThe program also includes additional buttons to roll hundred-sided dice, statistics for Dungeons and Dragons characters, and the dice for the board game Root.\nFor games in which only six-sided dice are used, a special submenu is included that makes those options more readily available. The program is easy to use, \nwith a user interface that prioritizes intuitiveness at every level.</p>\n\n<p><a href=\"https://www.planet-casio.com/Fr/programmes/programme4271-1-dieroll-mrhitech-utilitaires-divers.html\">Download here</a></p>\n\n" + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8"),
-    "ninjaCoinJumper": "<h2>Ninja Coin Jumper</h2>\n<p>A platformer made in Unity in which the player traverses through\na variety of environments with their metal-repelling powers.</p>\n\n<p><a href=\"https://mrhitech.itch.io/ninja-coin-jumper\">Download here</a></p>\n\n\t" + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg")
+    "ninjaCoinJumper": "<h2>Ninja Coin Jumper</h2>\n<p>A platformer made in Unity in which the player traverses through\na variety of environments with their metal-repelling powers.</p>\n\n<p><a href=\"https://mrhitech.itch.io/ninja-coin-jumper\">Download here</a></p>\n\n\t" + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg"),
+    "runeWriter": "<h2>Rune Writer</h2>\n<p> A top-down combat game made in p5.js. The player is a wizard who fights enemy knights using a vast array of spells.\nSpells are programmed by the player in a runic language that TK to Javascript.</p>\n\n<p>Programmed for HackRPI 2023.</p>\n"
 };
 function tdWords(gameName) {
     var to_return = "";
