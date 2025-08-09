@@ -135,5 +135,4 @@ function main() {
     draw_top_bar();
     draw_table(consts.project_lists.all);
 }
-console.log("Working");
 main();
