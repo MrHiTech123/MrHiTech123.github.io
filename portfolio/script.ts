@@ -19,8 +19,23 @@ var consts = {
 		games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll"]
-	}
+	},
+	url_params: new URLSearchParams(window.location.search)
 }
+
+
+function update_top_title() {
+	var real_name = consts.url_params.get("realName");
+	
+	if (real_name == null) {
+		return;
+	}
+	
+	var top_title = <HTMLTitleElement>document.getElementById("top-title")
+	top_title.innerHTML = real_name + "'s Portfolio";
+}
+
+
 
 function youtube_video_element(url: string) : string {
 	return `<iframe width="` + consts.video.width + `" marginwidth="0"
@@ -39,7 +54,7 @@ var project_descriptions = {
 <p> This mod adds additional branches to the TerraFirmaCraft technology tree, such as soapmaking, sugar production, and canning food. It also adds some completely new features, such as magnifying glasses and a fully data-driven juicing system. </p>
 
 <p><a href="https://www.curseforge.com/minecraft/mc-mods/tfc-artisanal">Download here</a></p>
-<p><a href="https://terrafirmacraft.github.io/Field-Guide/en_us/artisanal/">Read the field guide here</a> (Note that some pages are unable to load properly in the online version).</p>
+<p><a href="https://terrafirmacraft.github.io/Field-Guide/en_us/artisanal/">Read the field guide here</a> (Note that some pages are unable to load properly in the online version and can only be viewed in-game).</p>
 <p><a href="https://github.com/MrHiTech123/Artisanal">View source code here</a></p>
 
 `,
@@ -94,7 +109,7 @@ a variety of environments with their metal-repelling powers.</p>
 	` + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg"),
 	"runeWriter": `<h2>Rune Writer</h2>
 <p> A top-down combat game made in p5.js. The player is a wizard who fights enemy knights using a vast array of spells.
-Spells are programmed by the player in a runic language that TK to Javascript.</p>
+Spells are programmed by the player in an open-ended language, allowing for significant customizability.</p>
 
 <p>Programmed for HackRPI 2023.</p>
 `
@@ -242,6 +257,7 @@ function draw_table(things_to_show: string[]) {
 }
 
 function main() {
+	update_top_title();
 	draw_top_bar();
 	draw_table(consts.project_lists.all);
 }
