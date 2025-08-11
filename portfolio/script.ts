@@ -15,10 +15,10 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll"],
+		all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
 		games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
-		calculator_programs: ["dieRoll"]
+		calculator_programs: ["dieRoll", "wagon"]
 	},
 	url_params: new URLSearchParams(window.location.search)
 }
@@ -85,8 +85,6 @@ to hazardous chemicals and fracking, to portals to other dimensions and finally 
 <p>This game was awarded "Best Overall" at HackTrin Hackathon IX.</p>
 
 <p><a href="https://mrhitech.itch.io/carbon-clicker">Play here</a></p>
-
-
 `,
 	
 	"dieRoll": `<h2>DieRoll</h2>
@@ -112,7 +110,13 @@ a variety of environments with their metal-repelling powers.</p>
 Spells are programmed by the player in an open-ended language, allowing for significant customizability.</p>
 
 <p>Programmed for HackRPI 2023.</p>
-`
+`,
+
+	"wagon": `<h2>Wagon</h2>
+<p> A Casio Calculator game inspired by The Oregon Trail. Players can travel the trail and see sites such as Fort America, Treewalk Mountain, and the Narrow River.</p>
+
+<p>Download here: <a href="https://www.planet-casio.com/Fr/programmes/programme4575-1-wagon-mrhitech-jeux-actionsport.html">https://www.planet-casio.com/Fr/programmes/programme4575-1-wagon-mrhitech-jeux-actionsport.html</a></p>
+` + youtube_video_element("https://www.youtube.com/embed/nVc9CqUuLrs")
 	
 }
 
