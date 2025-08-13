@@ -115,7 +115,7 @@ Spells are programmed by the player in an open-ended language, allowing for sign
 	"wagon": `<h2>Wagon</h2>
 <p> A Casio Calculator game inspired by The Oregon Trail. Players can travel the trail and see sites such as Fort America, Treewalk Mountain, and the Narrow River.</p>
 
-<p>Download here: <a href="https://www.planet-casio.com/Fr/programmes/programme4575-1-wagon-mrhitech-jeux-actionsport.html">https://www.planet-casio.com/Fr/programmes/programme4575-1-wagon-mrhitech-jeux-actionsport.html</a></p>
+<p><a href="https://www.planet-casio.com/Fr/programmes/programme4575-1-wagon-mrhitech-jeux-actionsport.html">Download here</a></p>
 ` + youtube_video_element("https://www.youtube.com/embed/nVc9CqUuLrs")
 	
 }
