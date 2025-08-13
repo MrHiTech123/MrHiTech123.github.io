@@ -25,7 +25,7 @@ var consts = {
 
 
 function update_top_title() {
-	var real_name = consts.url_params.get("realName");
+	var real_name = consts.url_params.get("realNameForEmployers");
 	
 	if (real_name == null) {
 		return;
