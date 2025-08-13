@@ -1,0 +1,264 @@
+Descent Into Madness General Rules
+By Gabe Dellario, Jack Hu, John Kouassi, Sam Lebowitz, and Nick Rice
+Materials
+3-4 players
+Game boards
+Scenario cards
+Monster Cards
+Scene Cards
+Character Cards
+Special Cards
+Item Cards
+Note: One set of Character Cards is provided with the game. If you would like to play more than once, download and print more at from https://mrhitech123.github.io/gsas/intro_game_design/descent_into_madness/character_cards.pdf
+Humans Piece
+Flesh wall card
+A d8 (though the game goes faster if each player has their own)
+Setup
+Each player chooses a role, either one of the Humans (Ichabod Crane, Dr. Frankenstein, or Madeline Usher), or the House. Only one player can take each role.
+The Humans have one collective game piece
+Each Human takes their character card.
+The House follows their own setup instructions, as described in the House Rules document.
+Objectives
+The players must escape the House of Madness.
+The House must kill as many humans as they can before they kill Dracula and escape the house.
+Rules
+The party picks a space on the board to start. Initially, only rooms on the Normal Map can be chosen.
+The House reads out the room’s flavor text, and takes the scenario cards off of it. Players are encouraged to act out any flavor text that is written out.
+The House shuffles the scenarios that were in the room and gives them to the Humans one at a time. Each scenario can be either a scene or a combat.
+If the scenario is a scene, then the players roleplay it:
+The Active Human for this scene is the Human sitting to the left of the previous Active Human. If there was no previous Active Human, the Active Human is the Human sitting to the left of the House.
+The House reads the scene aloud to the Humans, as well as their options (without telling the Humans what will be rolled). 
+The Active Human chooses one of the scene’s actions to take.
+Some actions require the Active Human to roll against one of their statistics in order to determine success or failure. See “rolling against”, below.
+Either way, the House reads the Humans the outcome of the action.
+If the scenario is a Monster, the Humans enter combat against it.
+After all of the room’s scenarios are done, pick up from the room’s “Upon finishing all scenarios” section.
+Once the Humans are done with all the instructions for a room, they are considered to be “between rooms”, during which they can do some things, including but not limited to the following:
+A Human who possesses an item may give it to another Human. After they have done so, the Human who received the Item now possesses it, and the Human who gave it no longer does.
+Spend XP on stat upgrades. See “stat upgrades”, below.
+Then, the Humans collectively decide the next room to go to, and the cycle repeats.
+Items
+		Sometimes, rooms will give the Humans Items. When this happens, the Humans decide who should receive the Item, and that Human takes the item card. A Human whose player has an item card is said to be “possessing” that item. Only one Human may possess an item at a time, and Humans can transfer Items amongst themselves and  in between rooms.
+Rolling Against Statistics
+		Sometimes, in order to determine the success or failure of an action, a Human is told to roll against one of their statistics. When this occurs, they roll a d8 and compare it to their value for that statistic. If the roll is less than or equal to the value of that stat, it’s a success. Otherwise, the roll is a failure.
+		For example, Roderick needs to roll against his INT. His INT is 6, so he needs to roll a 6 or lower on the d8 to succeed.
+		During Combat, combatants might roll against other stats, like their Dodge or Stamina scores. This is detailed further in the Combat rules.
+Humans
+All Humans have the following attributes that differentiate them from one another:
+Statistics: These are DEX (Dexterity), INT (Intelligence), and ARC (Arcana, or ability to use magic).
+Hit Point (HP) pools: This includes the Human’s primary, or Torso, HP, as well as secondary HP pools such as limbs. A Human whose Torso reaches 0 HP dies and loses the game. If another HP pool is reduced to 0 HP, that pool is said to be disabled, which can have various effects.
+Dodge score: This score determines how likely the Human is to be able to dodge attacks.
+Stamina score: This score determines how likely the Human is to recover their special abilities during combat.
+Special Abilities: Any particular abilities that this character can use during combat. These are provided on separate cards so that you can track whether the ability is charged or not.
+Combat
+		In combat, players take turns in clockwise order, starting with the Human to the left of the House and ending with the House. At the end of combat, the surviving Humans each gain 1 XP.
+Human turns
+On a Human’s turn, they may do one of three things:
+Basic Attack
+The Human attacks the Monster (see Attacking, below), dealing damage equal to 1d8 + their highest stat the highest of their (DEX, INT, or ARC). For example, if Madeline Usher’s highest stat is ARC, her Basic Attack deals damage equal to 1d8 + her ARC.
+A Human can use a different statistic that is from the ones mentioned above, but in most cases it is to their detriment to do so.
+Special Attack/Special Ability (these are known collectively as “Specials”)
+The Human follows the instructions for their Special Attack or Special Ability, which can be found on its card.
+After using a Special, it is uncharged and cannot be used until it is recovered (flip over the Special’s card to indicate this).
+If either Special is uncharged at the start of their turn, the Human rolls against their Stamina score. On a success, they may choose one Special to recover.
+Even if both the Special Attack and Ability are uncharged, the Human only rolls against their Stamina once. If one is recovered, they . If one is recovered, they may still still attempt to recover the other on subsequent turns.
+Specials do not automatically recover between combats. If a Special is uncharged at the end of a combat, it remains uncharged until it is recovered through Stamina during the next combat.
+Use Item
+When an Item is used, the Human who uses it follows the instructions on the Item card.
+Items can be used only once per game. Once an Item is used, return it to the House.
+House turns
+When the House takes a turn, the Monster that the Humans are fighting can use one of its abilities, either its normal or special attack. These attacks are specific to each Monster and are detailed on the Monster’s card.
+A Monster’s special attack can only be used if the monster’s Stamina token is on “charged”. Once the attack has been used, the House turns their Stamina token to “uncharged” and rolls against their Stamina score at the start of each of the House’s turns. On a success, the Monster’s special ability is recharged and the House flips their card accordingly.
+Unlike Human abilities, the Monster’s stamina token is recharged at the beginning of a combat, since the stamina of a Monster is not affected by combat in which it did not take part.
+If a Monster’s attack deals damage to only one target, it can be used to make a Called Shot, just as a Human’s attack can. If it deals damage to multiple targets, it cannot be used to make a Called Shot unless otherwise noted.
+Attacking
+When a Human attacks a Monster, or a Monster attacks a Human, the following occurs:
+Choosing a target
+The attacker chooses which HP pool to target. They can target either the Torso, or they can make a Called Shot (see Called Shots, below).
+An attack with multiple targets can target a different HP pool on each target.
+Determining damage
+If the attack requires a roll to determine how much damage is dealt, the di(c)e are rolled during this step.
+Rolling to dodge
+The attack’s target rolls against their Dodge score. On a success, they dodge the attack and take only a quarter of its damage.
+Dodge rolls are automatically done in response to attacks. The dodger may still attack on their turn, even if they attempted to dodge something.
+Dealing damage:
+The damage that was dealt is then subtracted from the targeted HP pool. If this damage reduces the Monster’s Torso HP pool to 0, the Monster dies and the combat ends.
+Called Shots:
+		Sometimes, it can be useful to attack a part of an enemy’s body other than their Torso. In such a case, a Called Shot can be made. A character who makes a Called Shot attacks as normal, but with the following changes:
+The damage is dealt to a secondary HP pool of the attacker’s choice, rather than to the target’s Torso HP pool. Because this damage does not apply to the Torso HP pool, 
+If an HP pool other than the Torso is chosen, the target’s Dodge score is increased by 1 for this attack.
+If the damage to an HP pool equals or exceeds the HP left in that pool, any excess damage is dealt to the Torso.
+For example, if a monster deals 7 damage to a Human’s leg (5 HP), the Human’s leg is reduced to 0 HP and they take 2 damage to the Torso.
+Damage that cannot be dodged always targets the Torso.
+Limb Injuries
+Sometimes, when a Human’s Arm or Leg HP pool is reduced to 0 HP, Humans can lose the use of their limbs in combat. A limb or other HP pool that is reduced to 0 HP is said to be disabled, which usually causes its owner to suffer a negative effect.
+When a Human’s arm is disabled, their attacks deal half of their normal damage. If both of a Human’s arms are disabled, they deal one quarter of their normal damage (rounded down in both cases).
+If a Human has one disabled leg, their Dodge score is reduced by 1. If their legs are both disabled, their Dodge score is reduced by 2.
+Humans’ limbs can be restored using XP, as seen below. When a limb is restored, any penalties from beingits having been that were caused by it being disabled are reversed, and it is restored to full HP.
+Monsters also have different HP pools, and various things happen when they’re reduced to 0, depending on the Monster.
+Restoring HP
+Sometimes, Humans or Monsters can have their HP restored, such as with Dr. Frankenstein’s special ability. When this occurs, the HP can be restored to any one of the Human’s or Monster’s HP pools, but may not be divided between them. An HP pool cannot regain more HP than its initial value, and a pool with 0 HP remaining may not regain HP.
+Resistance
+		Some Monsters have Resistance, meaning that they take less damage from Humans’ attacks. For example, a Monster with Resistance 5 takes 5 less damage whenever it’s attacked.
+		Sometimes Resistance only applies when certain conditions are met or to certain types of damage, which is noted in the Monster’s description.
+General Combat Guidelines
+When dividing two numbers, if the result is not an integer, round the answer down to the nearest integer.
+When rolling damage that is dealt to multiple targets or HP pools, roll the damage once, and that much damage is dealt to each target. For example, if Dr. Frankenstein uses Lightning Rod on a Monster, his player rolls 2d8 once, and that much damage is dealt to each of the Monster’s HP pools.
+Generally speaking, the House should not tell the Humans about any particular abilities or stats the Monster has. Exceptions include:
+What HP pools the Monster has, so that they can know what they’re allowed to attack.
+If the Humans just disabled one of the Monster’s HP pools, tell them what that did.
+If the Humans have reduced the Monster’s Torso to half health, tell them that the Monster is at half health. This prevents fights from feeling monotonous.
+The House should feel free to treat these more as guidelines than rules. If they think that divulging a piece of information will make the game more exciting, they should feel free to do so!
+If you are told to select a random Human, roll a d8, selecting depending on the number of Humans. Only living Humans are considered for this purpose.
+Number of living Humans
+How to select a random Human
+2
+
+Roll
+Selected Human
+1-4
+The Human to the left of the House
+5-8
+The Human to the right of the House
+
+
+
+3
+
+Roll
+Selected Human
+1-2
+Ichabod Crane
+3-4
+Dr. Frankenstein
+5-6
+Madeline Usher
+7-8
+Reroll
+
+
+
+
+Improving Your Statistics
+		After every combat and scene, the Humans might gain some XP. Humans gain XP at the end of a combat if they are alive at the end of the combat, and at the end of a scene if the Active Human’s stat roll was a success.
+		Between rooms, Humans can spend XP to upgrade their statistics, permanently increasing them by 1, or to restore disabled limbs. The prices to upgrade each statistic are as follows:
+
+
+
+Upgrade
+Cost
+
+
+Upgrade
+Cost
+Recover a leg (restoring the HP pool to full)
+1 XP
+
+
++1 INT
+3 XP
+Recover an arm
+(restoring the HP pool to full)
+2 XP
+
+
++1 Dodge
+5 XP
++1 ARC
+3 XP
+
+
++1 Stamina
+5 XP
++1 DEX
+3 XP
+
+
+
+
+
+
+
+
+		These upgrades last for the rest of the game, and the same stat can be upgraded multiple times. No statistic can be improved to higher than 8.
+		
+Winning the Game
+		Every Human who manages to escape the House without dying wins the game. If no Humans escape the House, the House wins.
+
+
+
+Descent Into Madness: Additional House Setup and Room Descriptions
+This rules document is meant for the House’s eyes only.
+Setup
+
+Place the board containing the Cellar (The Normal Map) in front of humans, ask them to choose a character and then give them their respective character sheet. Give the humans the party game piece. Place the Flesh Wall Piece on the Cellar.
+Grab the scenario (Scene and Monster) cards, sorting them into decks by location.
+Monsters have the following locations:
+
+Monster
+Location
+Animated Armor
+Armory
+Dracula
+Escape
+Dr. Jekyll and Mr. Hyde
+Cellar
+Stitched Monster
+Library
+Werewolf
+Bedroom
+Yellow Wallpaper Monster
+Kitchen
+
+
+Shuffle each deck. If a deck’s location is on the Normal Map, place it face-down on that location after shuffling. Set aside the decks corresponding to locations on the Blood Moon Map.
+Read the Humans the opening script:
+A mysterious illness has fallen over the House of Madness. The terror and darkness gripping this once-thriving manor has slowly withered it over the years. Cracks have appeared in the house’s once-firm masonry, and have recently begun spreading around the town. Desperate to save the town, Madeline Usher has summoned her childhood friend, Ichabod Crane, as well as Dr. Victor Frankenstein, who is knowledgeable in a great deal of dark science. Together, they will venture into the depths of the House of Madness and defeat this dark force, lest it swallow you and the town once and for all!
+Ask the Humans where they want to go first, beginning the main portion of the game.
+Place the board containing the Cellar (The Normal Map) in front of humans, ask them to choose a character and then give them their respective character sheet. Give the humans the party game piece. Place the Flesh Wall Piece on the Cellar.
+Grab the normal scenario cards, sort them by location and put them aside for later.
+Read the Humans the opening script:
+A mysterious illness has fallen over the House of Madness. The terror and darkness gripping this once-thriving manor has slowly withered it over the years. Cracks have appeared in the house’s once-firm masonry, and have recently begun spreading around the town. Desperate to save the town, Madeline Usher has summoned her childhood friend, Ichabod Crane, as well as Dr. Victor Frankenstein, who is knowledgeable in a great deal of dark science. Together, they will venture into the depths of the House of Madness and defeat this dark force, lest it swallow you and the town once and for all!
+Ask the Humans where they want to go first, beginning the main portion of the game.
+
+
+Narration
+The Areas Rooms (Normal Map)
+
+Two areas are blocked off and require special Items to enter:
+Normal Map: The Cellar is blocked and requires acid from the brewery and a key from the study.
+Blood Moon Map: The exit (Marked ESCAPE!) is blocked off and requires a dagger hilt from the bedroom, a dagger blade from the armory, and a book from the library.
+When the humans choose to enter an area, narrate the lines provided.
+Brewery: As you open up the old wooden door, a stench of pungent alcohol fills your noses. Inside the dimly lit room are various barrels of different shapes and sizes, and tables covered in dusty distillation equipment. Perhaps you can find something useful here.
+Upon finishing all scenarios: You use a bottle to scoop up the mysterious bubbling acid. (Give the Humans the acid)
+Study: Upon opening the ornate wooden door to the study, the smell of old books hits your nostrils. Volumes of arcane lore are strewn about the room, and chests of drawers bursting with writing utensils line what little wall space isn’t covered by bookshelves.
+Upon finishing all scenarios: Shadows dispelled, you grab the large iron key. (Give the Humans the key)
+If the Humans have been to the Cellar, read the following:
+This key is about the same size as the cellar’s keyhole.
+Kitchen: You enter the kitchen, and take note of the conspicuous lack of conventional cooking equipment. In their places lie a mess of strange alchemical equipment, dried herbs, and jars of liquid marked with faded labels.
+Upon finishing all scenarios: In a cupboard, you find some potted meats suspended in butter. The preservation seems to have allowed them to weather the house’s years of abandonment, and they now serve as a good snack (each Human regains 5 HP).
+Cellar:
+If they lack the acid: You come upon what appears to be a large fleshy mass on the ground. t. Underneath it, you can see the vague outline of the he dark wooden cellar door, iI but it’s lockedunreachable, and through the iron bars of the door you can see a tough tendon-like substance on the other side that cannot be pierced by any of your weapons. It seems you will have to find a way to remove this curious substance if you want access to the cellar through the fleshy mass.
+If they have the acid: Dr. Frankenstein You grabs  the vial of acid you got from the brewery, and pourspour some of it through the bars directly onto the fleshy mass. Immediately, it begins to convulse and thrash, steam coming off its surface as it dissolves into a slimy substance. You swear you can hear a shrieking that’s inside your head, but at the same time coming from a distant part of the house. Underneath it, a heavy wooden trapdoor with a keyhole is revealed. Upon testing it, you find the trapdoor to be locked.
+If they have the acid ’ve dissolved the flesh wall and have the key: You take the key from the study and insert it into the keyhole. The latch clicks and you step inside the dark stairway into the basement. After walking for an unnaturally long time, the staircase ends and you come upon a long corridor with a door at the end. From under the door comes an unsettling, deep, red glow. You  brace yourselfves and open the door. Inside, in the center of the room is a massive, pulsing heart. Veins and arteries stretch into the far corners of the house, pumping fluids throughout it. Voices call out to Madeline you from the veins: those all of her friends from around the townthe townspeople—at least part of them seems to be trapped here. She begins running back upstairs, the others hot on her heelsA primordial fear grips you and you all begin to run back up the stairs. Howls can be heard from distant places, and the air seems to grow heavy. Upon making it to the entrance hall, you notice the windows and exterior doors are covered in an ethereal forcefeld that cannot be broken by conventional means. Standing at the front door is the pale, suited figure of an aristocrat. Thin white points, each dripping a steady flow of blood, poke out from beneath his lips. It“ would appear that Dracula?!” Dr. Frankenstein exclaims himself has decided to take up residence here!. Upon hearing this, the man narrows his icy eyes. Pouring himself a goblet of blood from a nearby vein, he begins to speak. “Now that you know my secret, it is too dangerous to let you leave. You shall be part of this house forevermore, and even your ghosts will remain shackled to these walls! The secret of the house dies with you all!” Dr. Frankenstein You tries y to run at Dracula, but only slams his body  into an invisible barrier. It seems you’ll have to find another way to escape this house of death.
+After narrating this part, flip the Normal Map over to reveal the Blood Moon Map. 
+Place the scenario decks corresponding to the Blood Moon Map’s rooms on those rooms.
+If any scenario cards remain on the Normal Map, set them aside, pretending they’re for later. They won’t actually be used, since the Humans will never return to the Normal Map, but they don’t need to know that.
+The Humans choose a space on the Blood Moon Map on which to start (they may then transfer items and spend XP before beginning that room).
+Tell the Humans that they are now trapped in the Blood Moon Map, and can only move to rooms on it until they escape.
+
+The Areas Rooms (Blood Moon Map)
+Library: You open the red door to the library, and step into a vast, cavernous room lined with tens of thousands of volumes. Upon closer examination, you notice that many of them are written in a language far removed from any creation of humanity. Perhaps this room will contain the secret to dispelling the forcefeld that surrounds the house.
+Upon finishing all scenarios: MadelineYou thumbs through the spellbook on the lectern until she you comescome across a spell called “Ward Reversal.” She pulls out her ”, bookmarking handkerchief and bookmarks the page for later. (Give Humans the Spellbook piece)
+Armory: You step into the dark hall, and the smell of rust fills your nostrils. Swords, clubs, and everything in between line the walls of this room, some still caked with blood from wars past. These weapons, have all dulled rusted from years of disuse, and will likely be ineffective against Dracula. As you search around the room, you hear distant clinks of metal, and you realize you might not be as alone as you think.
+Upon finishing all scenarios: As the suit of armor falls apart and clatters on the stone floor, you look to see what he was guarding. In a glass case is an ornate dagger. It seems to shine with an otherworldly force. Perhaps this could be used against Dracula? (Give Humans the dagger piece)
+Attic: Your party ascends a labyrinth of ladders. By the end, you’re not even sure which way is up, but you finally reach the seemingly-isolated attic. An open window beckons to you, but a quick examination reveals it to be guarded by the same shield as Dracula was. You look around the dark and damp room for any signs of treasure. The walls are worn and cracked, and the room is dimly illuminated by a single window at the end. You swear you can hear boxes shifting around in the room, but you know this place holds secrets that may be instrumental in your escape.
+Upon finishing all scenarios: Rummaging through the bins and boxes, you come across an unlocked strongbox. You open it and find some dynamite. (Give the Humans the dynamite piece)
+Bedroom: This lavish room is painted a deep red by the moonlight from outside, but even without it you wouldn’t feel safe. This is the bedroom of the vampire who has taken up residence in the House of Madness, the man whose spirit stands between you and safety. He held many secrets, some of which may be unearthed in the drawers and shelves of his sleeping quarters.
+Upon finishing all scenarios: On a dusty nightstand, you find a small leather pouch. Opening it releases a silver mist that makes you sneeze, but otherwise has no effect.
+ESCAPE!
+If the humans lack required Items (spellbook, dagger): You can’t get past Dracula, and even if you could, a ward blocks all the exits.
+If the humans have the required Items: You’re ready. In the central hall, Madeline One of you pulls out the bookmarked spell she bookmarked and begins chanting the words. You feel the house shake, and thunder begins to crash outside. The glow around all the windows and doors seems to weaken and fade. “What are you doing?!” Dracula asks, the rage in his voice growing. Ichabod One of you responds by unsheathing the enchanted dagger, and plunging it into the shoulder of the ghostly man. He lets out a scream, and his eyes become bloodshot and frightened. Now vulnerable, he pushes the Ichabod his assailant and their wretched dagger away and pulls the dagger out of his shoulder, brandishing it against you.
+Now is the time to begin the final fight against Dracula. Pull out his combat card and behave like you would any other combat.
+Upon killing Dracula: With a final cry, Dracula falls to his knees, the silver dagger clattering to the floor. “The House of Madness may have fallen, but I will yet live!” He raises his hands to the sky and dissolves into a pile of ash. The massive heart behind you screams as an explosion of blood travels all the way down the hallway. Sensing imminent collapse, you rush out of the now unblocked doors into the front yard. The red moon, rising far above the house, is visible through the growing cracks in the walls. You hear a final, deafening screech, and the house completely crumbles in on itself, leaving behind a ruined pile of wood and stone. The moon returns to its natural white coloration, and the air tangibly lightens around you. You breathe a sigh of relief, knowing that you managed to destroy the evil force and save the town.
+If all humans die: As the last of your party fades into darkness, you hear muffled laughter. Despite your best efforts, you could not escape the House of Madness.
