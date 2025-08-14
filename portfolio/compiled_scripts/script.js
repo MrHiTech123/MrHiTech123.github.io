@@ -20,14 +20,6 @@ var consts = {
     },
     url_params: new URLSearchParams(window.location.search)
 };
-function update_top_title() {
-    var real_name = consts.url_params.get("realNameForEmployers");
-    if (real_name == null) {
-        return;
-    }
-    var top_title = document.getElementById("top-title");
-    top_title.innerHTML = real_name + "'s Portfolio";
-}
 function youtube_video_element(url) {
     return "<iframe width=\"" + consts.video.width + "\" marginwidth=\"0\"\nsrc=\"" + url + "\" \ntitle=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; \nautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; \nweb-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen class=\"video\"></iframe>";
 }
@@ -142,7 +134,6 @@ function draw_table(things_to_show) {
     table_element.innerHTML = table_content;
 }
 function main() {
-    update_top_title();
     draw_top_bar();
     draw_table(consts.project_lists.all);
 }

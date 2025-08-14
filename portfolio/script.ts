@@ -23,20 +23,6 @@ var consts = {
 	url_params: new URLSearchParams(window.location.search)
 }
 
-
-function update_top_title() {
-	var real_name = consts.url_params.get("realNameForEmployers");
-	
-	if (real_name == null) {
-		return;
-	}
-	
-	var top_title = <HTMLTitleElement>document.getElementById("top-title")
-	top_title.innerHTML = real_name + "'s Portfolio";
-}
-
-
-
 function youtube_video_element(url: string) : string {
 	return `<iframe width="` + consts.video.width + `" marginwidth="0"
 src="` + url + `" 
@@ -261,7 +247,6 @@ function draw_table(things_to_show: string[]) {
 }
 
 function main() {
-	update_top_title();
 	draw_top_bar();
 	draw_table(consts.project_lists.all);
 }
