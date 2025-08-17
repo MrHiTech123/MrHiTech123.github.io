@@ -24,5 +24,5 @@ var favicons = {
   'bvkhnhpl': 'hebIcon.ico'
 }
 if (favicons.hasOwnProperty(game)) {
-  document.querySelector("link[rel='shortcut icon']").href = "/images/" + favicons[game];
+  document.querySelector("link[rel='shortcut icon']").href = "../images/" + favicons[game];
 }
