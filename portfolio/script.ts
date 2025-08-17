@@ -20,7 +20,8 @@ var consts = {
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll", "wagon"]
 	},
-	url_params: new URLSearchParams(window.location.search)
+	url_params: new URLSearchParams(window.location.search),
+	url_path_to_files: "https://MrHiTech123.github.io/portfolio/"
 }
 
 function youtube_video_element(url: string) : string {
@@ -96,6 +97,8 @@ a variety of environments with their metal-repelling powers.</p>
 Spells are programmed by the player in an open-ended language, allowing for significant customizability.</p>
 
 <p>Programmed for HackRPI 2023.</p>
+
+<p><a href="` + consts.url_path_to_files + `../rune_writer">Play Here</a></p>
 `,
 
 	"wagon": `<h2>Wagon</h2>
@@ -123,7 +126,7 @@ function image(src: string, width: string, height: string) : string {
 }
 
 function gameImage(gameName: string, order: number) : string {
-	var src: string = "assets/images/" + gameName + "_" + order + ".jpg";
+	var src: string = consts.url_path_to_files + "assets/images/" + gameName + "_" + order + ".jpg";
 	
 	var width: string = (order == 0)? consts.image.first.width : consts.image.subsequent.width;
 	var height: string = (order == 0)? consts.image.first.height : consts.image.subsequent.height;

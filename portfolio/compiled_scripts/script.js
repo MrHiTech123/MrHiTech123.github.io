@@ -18,7 +18,8 @@ var consts = {
         minecraft_mods: ["artisanal", "betterStoneAge"],
         calculator_programs: ["dieRoll", "wagon"]
     },
-    url_params: new URLSearchParams(window.location.search)
+    url_params: new URLSearchParams(window.location.search),
+    url_path_to_files: "https://MrHiTech123.github.io/portfolio/"
 };
 function youtube_video_element(url) {
     return "<iframe width=\"" + consts.video.width + "\" marginwidth=\"0\"\nsrc=\"" + url + "\" \ntitle=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; \nautoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; \nweb-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen class=\"video\"></iframe>";
@@ -30,7 +31,7 @@ var project_descriptions = {
     "carbonClicker": "<h2>Carbon Clicker</h2>\n<p>A p5js game centered around increasing the rate of global warming.\nAt first, the player must produce pollution by breathing. Pollution can then\nbe spent on other things that automatically produce pollution, from cattle farming and airplanes,\nto hazardous chemicals and fracking, to portals to other dimensions and finally the Plasticmageddon.</p>\n\n<p>This game was awarded \"Best Overall\" at HackTrin Hackathon IX.</p>\n\n<p><a href=\"https://mrhitech.itch.io/carbon-clicker\">Play here</a></p>\n",
     "dieRoll": "<h2>DieRoll</h2>\n<p>A Casio calculator app that can be used to roll dice of all sorts.\nFeatures the ability to roll up to 9 of any type of polyhedral die at once, as well as to roll with advantage, disadvantage, or emphasis.\nThe program also includes additional buttons to roll hundred-sided dice, statistics for Dungeons and Dragons characters, and the dice for the board game Root.\nFor games in which only six-sided dice are used, a special submenu is included that makes those options more readily available. The program is easy to use, \nwith a user interface that prioritizes intuitiveness at every level.</p>\n\n<p><a href=\"https://www.planet-casio.com/Fr/programmes/programme4271-1-dieroll-mrhitech-utilitaires-divers.html\">Download here</a></p>\n\n" + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8"),
     "ninjaCoinJumper": "<h2>Ninja Coin Jumper</h2>\n<p>A platformer made in Unity in which the player traverses through\na variety of environments with their metal-repelling powers.</p>\n\n<p><a href=\"https://mrhitech.itch.io/ninja-coin-jumper\">Download here</a></p>\n\n\t" + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg"),
-    "runeWriter": "<h2>Rune Writer</h2>\n<p> A top-down combat game made in p5.js. The player is a wizard who fights enemy knights using a vast array of spells.\nSpells are programmed by the player in an open-ended language, allowing for significant customizability.</p>\n\n<p>Programmed for HackRPI 2023.</p>\n",
+    "runeWriter": "<h2>Rune Writer</h2>\n<p> A top-down combat game made in p5.js. The player is a wizard who fights enemy knights using a vast array of spells.\nSpells are programmed by the player in an open-ended language, allowing for significant customizability.</p>\n\n<p>Programmed for HackRPI 2023.</p>\n\n<p><a href=\"" + consts.url_path_to_files + "../rune_writer\">Play Here</a></p>\n",
     "wagon": "<h2>Wagon</h2>\n<p> A Casio Calculator game inspired by The Oregon Trail. Players can travel the trail and see sites such as Fort America, Treewalk Mountain, and the Narrow River.</p>\n\n<p><a href=\"https://www.planet-casio.com/Fr/programmes/programme4575-1-wagon-mrhitech-jeux-actionsport.html\">Download here</a></p>\n" + youtube_video_element("https://www.youtube.com/embed/nVc9CqUuLrs")
 };
 function tdWords(gameName) {
@@ -44,7 +45,7 @@ function image(src, width, height) {
     return "<img src=\"" + src + "\" width=" + width + " height=" + height + ">";
 }
 function gameImage(gameName, order) {
-    var src = "assets/images/" + gameName + "_" + order + ".jpg";
+    var src = consts.url_path_to_files + "assets/images/" + gameName + "_" + order + ".jpg";
     var width = (order == 0) ? consts.image.first.width : consts.image.subsequent.width;
     var height = (order == 0) ? consts.image.first.height : consts.image.subsequent.height;
     return image(src, width, height);
