@@ -16,7 +16,6 @@ function shuffle(array) {
 for (var i = 0; i < document.getElementsByClassName('imperepl').length; i ++) {
   oldlink = document.getElementsByClassName('imperepl')[i].href;
   game = oldlink.split('.')[0].slice(8)
-  document.getElementsByClassName('imperepl')[i].href = '/play/?game=' + encodeURIComponent(game);
 };
 function pridemonthfirst() {
   window.onscroll = function() {
