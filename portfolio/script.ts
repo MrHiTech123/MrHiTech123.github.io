@@ -85,6 +85,14 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 
 ` + youtube_video_element("https://www.youtube.com/embed/aEt4jaX6Eb8"),
 
+	"frenchStudyGames": `<h2>French Study Games</h2>
+<p>A website that I used to host study games for my high school French Class. Originally hosted on 000WebHost and Replit.</p>
+
+<p>An archive of the site is hosted <a href="` + consts.url_path_to_files + `../french_study_games">Here</a>, though unfortunately the PHP is no longer able to be run.</p>
+
+
+`,
+
 	"ninjaCoinJumper": `<h2>Ninja Coin Jumper</h2>
 <p>A platformer made in Unity in which the player traverses through
 a variety of environments with their metal-repelling powers.</p>
