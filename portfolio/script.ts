@@ -41,7 +41,7 @@ var project_descriptions = {
 <p> This mod adds additional branches to the TerraFirmaCraft technology tree, such as soapmaking, sugar production, and canning food. It also adds some completely new features, such as magnifying glasses and a fully data-driven juicing system. </p>
 
 <p><a href="https://www.curseforge.com/minecraft/mc-mods/tfc-artisanal">Download here</a></p>
-<p><a href="https://terrafirmacraft.github.io/Field-Guide/en_us/artisanal/">Read the field guide here</a> (Note that some pages are unable to load properly in the online version and can only be viewed in-game).</p>
+<p><a href="https://terrafirmacraft.github.io/Field-Guide/20/en_us/artisanal/">Read the field guide here</a> (Note that some pages are unable to load properly in the online version and can only be viewed in-game).</p>
 <p><a href="https://github.com/MrHiTech123/Artisanal">View source code here</a></p>
 
 `,
@@ -52,6 +52,7 @@ during the stone age, especially if you're new and don't understand the mining s
 <p>This is the problem that Better Stone Age was made to solve. From decorated ceramic pots and early-game dyeing to a nonlinear tiered progression system for stone tools, Better Stone Age fleshes out the TerraFirmaCraft stone age by adding more ways to advance than just finding metal.</p>
 
 <p><a href="https://www.curseforge.com/minecraft/mc-mods/tfc-better-stone-age">Download here</a></p>
+<p><a href="https://terrafirmacraft.github.io/Field-Guide/20/en_us/bsa/">Read the field guide here</a> (Note that some pages are unable to load properly in the online version and can only be viewed in-game).</p>
 <p><a href="https://github.com/MrHiTech123/BetterStoneAge">View source code here</a></p>
 
 	`,
