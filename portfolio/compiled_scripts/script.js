@@ -13,8 +13,8 @@ var consts = {
         width: "100%"
     },
     project_lists: {
-        all: ["artisanal", "ninjaCoinJumper", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
-        games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
+        all: ["artisanal", "ninjaCoinJumper", "spellThief", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+        games: ["ninjaCoinJumper", "carbonClicker", "spellThief", "runeWriter", "blockToppler"],
         minecraft_mods: ["artisanal", "betterStoneAge"],
         calculator_programs: ["dieRoll", "wagon"]
     },
@@ -33,6 +33,7 @@ var project_descriptions = {
     "frenchStudyGames": "<h2>French Study Games</h2>\n<p>A website that I used to host study games for my high school French Class. Originally hosted on 000WebHost and Replit.</p>\n\n<p>An archive of the site is hosted <a href=\"" + consts.url_path_to_files + "../french_study_games\">Here</a>, though unfortunately the PHP is no longer able to be run.</p>\n\n\n",
     "ninjaCoinJumper": "<h2>Ninja Coin Jumper</h2>\n<p>A platformer made in Unity in which the player traverses through\na variety of environments with their metal-repelling powers.</p>\n\n<p><a href=\"https://mrhitech.itch.io/ninja-coin-jumper\">Download here</a></p>\n\n\t" + youtube_video_element("https://www.youtube.com/embed/YBbLQ5qmAdg"),
     "runeWriter": "<h2>Rune Writer</h2>\n<p> A top-down combat game made in p5.js. The player is a wizard who fights enemy knights using a vast array of spells.\nSpells are programmed by the player in an open-ended language, allowing for significant customizability.</p>\n\n<p>Programmed for HackRPI 2023.</p>\n\n<p><a href=\"" + consts.url_path_to_files + "../rune_writer\">Play Here</a></p>\n",
+    "spellThief": "\n<p> A visual novel written in Unity Fungus, in which the player is a commoner, tasked with stealing a spell from a noble. </p>\n\n<p><a href=\"https://mrhitech.itch.io/spellthief\">Download here</a></p>\n\n" + youtube_video_element("https://www.youtube.com/watch?v=Oimn2kBzPm8") + "\n\n",
     "wagon": "<h2>Wagon</h2>\n<p> A Casio Calculator game inspired by The Oregon Trail. Players can travel the trail and see sites such as Fort America, Treewalk Mountain, and the Narrow River.</p>\n\n<p><a href=\"https://www.planet-casio.com/Fr/programmes/programme4575-1-wagon-mrhitech-jeux-actionsport.html\">Download here</a></p>\n" + youtube_video_element("https://www.youtube.com/embed/nVc9CqUuLrs")
 };
 function tdWords(gameName) {

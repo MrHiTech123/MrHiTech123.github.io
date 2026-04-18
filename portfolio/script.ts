@@ -15,8 +15,8 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["artisanal", "ninjaCoinJumper", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
-		games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
+		all: ["artisanal", "ninjaCoinJumper", "spellThief", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+		games: ["ninjaCoinJumper", "carbonClicker", "spellThief", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll", "wagon"]
 	},
@@ -108,6 +108,14 @@ Spells are programmed by the player in an open-ended language, allowing for sign
 <p>Programmed for HackRPI 2023.</p>
 
 <p><a href="` + consts.url_path_to_files + `../rune_writer">Play Here</a></p>
+`,
+	"spellThief": `
+<p> A visual novel written in Unity Fungus, in which the player is a commoner, tasked with stealing a spell from a noble. </p>
+
+<p><a href="https://mrhitech.itch.io/spellthief">Download here</a></p>
+
+` + youtube_video_element("https://www.youtube.com/watch?v=Oimn2kBzPm8") + `
+
 `,
 
 	"wagon": `<h2>Wagon</h2>
