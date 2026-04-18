@@ -13,7 +13,7 @@ var consts = {
         width: "100%"
     },
     project_lists: {
-        all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+        all: ["artisanal", "ninjaCoinJumper", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
         games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
         minecraft_mods: ["artisanal", "betterStoneAge"],
         calculator_programs: ["dieRoll", "wagon"]

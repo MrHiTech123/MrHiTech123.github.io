@@ -15,7 +15,7 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["ninjaCoinJumper", "artisanal", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+		all: ["artisanal", "ninjaCoinJumper", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
 		games: ["ninjaCoinJumper", "carbonClicker", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll", "wagon"]
@@ -34,7 +34,7 @@ web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen clas
 
 
 
-var project_descriptions = {
+var project_descriptions: Record<string, string> = {
 	"artisanal": `<h2>Artisanal</h2>
 <p> A Minecraft modification ("mod") that enhances the realism of TerraFirmaCraft by adding various chemical processes and technologies.</p>
 
