@@ -114,7 +114,7 @@ Spells are programmed by the player in an open-ended language, allowing for sign
 
 <p><a href="https://mrhitech.itch.io/spellthief">Download here</a></p>
 
-` + youtube_video_element("https://www.youtube.com/watch?v=Oimn2kBzPm8") + `
+` + youtube_video_element("https://www.youtube.com/embed/Oimn2kBzPm8") + `
 
 `,
 
