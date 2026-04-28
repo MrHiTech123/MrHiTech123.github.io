@@ -15,8 +15,8 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["artisanal", "ninjaCoinJumper", "spellThief", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
-		games: ["ninjaCoinJumper", "carbonClicker", "spellThief", "runeWriter", "blockToppler"],
+		all: ["artisanal", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+		games: ["ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll", "wagon"]
 	},
@@ -56,6 +56,10 @@ during the stone age, especially if you're new and don't understand the mining s
 <p><a href="https://github.com/MrHiTech123/BetterStoneAge">View source code here</a></p>
 
 	`,
+	"boidShooter": `<h2>Boid Shooter</h2>
+<p> A first-person shooter game proof-of-concept, in which boids fly around and attack the player while the player tries to shoot them down and target the statue that is controlling them. </p>
+<p> Includes a complete implementation of boids using Unreal Engine Blueprints.</p> 
+`,
 	"blockToppler": `<h2>BlockToppler</h2>
 <p>A ragdoll game made in Unity. The player controls each limb of the puppet individually,
 with the goal of throwing the ball at the tower of blocks and knocking them over.</p>
@@ -109,7 +113,7 @@ Spells are programmed by the player in an open-ended language, allowing for sign
 
 <p><a href="` + consts.url_path_to_files + `../rune_writer">Play Here</a></p>
 `,
-	"spellThief": `
+	"spellThief": `<h2>Spellthief</h2>
 <p> A visual novel written in Unity Fungus, in which the player is a commoner, tasked with stealing a spell from a noble. </p>
 
 <p><a href="https://mrhitech.itch.io/spellthief">Download here</a></p>
