@@ -103,8 +103,8 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 	"indeesNuttyRestaurant": `<h2>Indee's Nutty Restaurant</h2>
 <p> Indee's Nutty Restaurant is a cozy and humorous game where you play as Indee, a squirrel who is trying to pay off her debt to a shark. You will need to find and forage all the ingredients for the dishes you serve and befriend customers to unlock new areas of the world for foraging.</p>
 <p> 
-	For this game, I programmed the NPC behavior—spawning, queueing in line, sitting down, and leaving.
-	I also implemented an API for their dialogue system, allowing our writer to easily insert dialogue and specify when it should be said.
+	This game was developed in a group. I programmed the NPC behavior—spawning, queueing in line, sitting down, and leaving.
+	I also implemented a robust API for their dialogue system, allowing our writer to easily insert dialogue and specify when it should be said.
 </p>
 
 <p> I also helped to design several user interfaces, later implementing them. These included the dialogue screen, the serving menu, and the end of day screen.</p>
