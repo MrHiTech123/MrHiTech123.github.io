@@ -15,8 +15,8 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["artisanal", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
-		games: ["ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "runeWriter", "blockToppler"],
+		all: ["artisanal", "indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+		games: ["indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll", "wagon"]
 	},
@@ -74,6 +74,8 @@ At first, the player must produce pollution by breathing. Pollution can then
 be spent on other things that automatically produce pollution, from cattle farming and airplanes,
 to hazardous chemicals and fracking, to portals to other dimensions and finally the Plasticmageddon.</p>
 
+<p> I primarily designed this game's frontend, using a mix of HTML and p5js elements. </p>
+
 <p>This game was awarded "Best Overall" at HackTrin Hackathon IX.</p>
 
 <p><a href="https://mrhitech.itch.io/carbon-clicker">Play here</a></p>
@@ -95,6 +97,17 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 
 <p>An archive of the site is hosted <a href="` + consts.url_path_to_files + `../french_study_games">Here</a>, though unfortunately the PHP is no longer able to be run.</p>
 
+
+`,
+
+	"indeesNuttyRestaurant": `<h2>Indee's Nutty Restaurant</h2>
+<p> Indee's Nutty Restaurant is a cozy and humorous game where you play as Indee, a squirrel who is trying to pay off her debt to a shark. You will need to find and forage all the ingredients for the dishes you serve and befriend customers to unlock new areas of the world for foraging.</p>
+<p> 
+	For this game, I programmed the NPC behavior—spawning, queueing in line, sitting down, and leaving.
+	I also implemented an API for their dialogue system, allowing our writer to easily insert dialogue and specify when it should be said.
+</p>
+
+<p> I also helped to design several user interfaces, later implementing them. These included the dialogue screen, the serving menu, and the end of day screen.</p>
 
 `,
 
