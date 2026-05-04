@@ -15,8 +15,8 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["artisanal", "indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
-		games: ["indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "runeWriter", "blockToppler"],
+		all: ["artisanal", "indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "frehillSettlementMuseum", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+		games: ["indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "frehillSettlementMuseum", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll", "wagon"]
 	},
@@ -99,6 +99,12 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 
 
 `,
+	"frehillSettlementMuseum": `<h2>Frehill Settlement Museum</h2>
+<p> A virtual museum of the Frehill Settlement, a location from one of my D&D campaigns. Features three immersive exhibits, each displaying a different part of Dwarven life and culture. </p>
+
+<p> <a href="https://"https://mrhitech.itch.io/frehill-museum"> Download here! </a> </p>
+
+`,
 
 	"indeesNuttyRestaurant": `<h2>Indee's Nutty Restaurant</h2>
 <p> Indee's Nutty Restaurant is a cozy and humorous game where you play as Indee, a squirrel who is trying to pay off her debt to a shark. You will need to find and forage all the ingredients for the dishes you serve and befriend customers to unlock new areas of the world for foraging.</p>
@@ -107,7 +113,9 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 	I also implemented a robust API for their dialogue system, allowing our writer to easily insert dialogue and specify when it should be said.
 </p>
 
-<p> I also helped to design several user interfaces, later implementing them. These included the dialogue screen, the serving menu, and the end of day screen.</p>
+<p> I also helped to design several user interfaces, and later implemented them. These included the dialogue screen, the serving menu, and the end of day screen.</p>
+
+<p> <a href="https://nicofthyme.itch.io/indees-nutty-restaurant"> Download here! </a> </p>
 
 `,
 
