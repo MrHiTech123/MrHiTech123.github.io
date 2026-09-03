@@ -3,16 +3,16 @@
 var consts = {
 	image: {
 		first: {
-			height: "66%",
-			width: "100%"
+			height: "66vw",
+			width: "100vw"
 		},
 		subsequent: {
-			height: "33%",
-			width: "49.3%"
+			height: "33vw",
+			width: "49.3vw"
 		}
 	},
 	video: {
-		width: "100%"
+		width: "100vw"
 	},
 	project_lists: {
 		all: ["artisanal", "indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "frehillSettlementMuseum", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
