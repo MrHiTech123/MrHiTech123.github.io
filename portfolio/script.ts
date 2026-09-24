@@ -97,7 +97,8 @@ Our experience culminated with a presentation to representatives of that company
 We have yet to hear if our commission will be renewed, to allow us to continue working on the game,
 but I'm told that it likely will be.</p>
 
-<p> Pictured is:
+<p> Pictured is:</p>
+
 <ul>
 	<li>Image 0: A screenshot of the game inside Unreal Engine</li>
 	<li>Image 1: The CAVE system inside Unreal Engine editor, which can be moved around like an ordinary Unreal Actor.</li>
