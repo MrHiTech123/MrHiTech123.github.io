@@ -15,8 +15,8 @@ var consts = {
 		width: "100%"
 	},
 	project_lists: {
-		all: ["artisanal", "indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "frehillSettlementMuseum", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
-		games: ["indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "frehillSettlementMuseum", "runeWriter", "blockToppler"],
+		all: ["circuitGame", "artisanal", "indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "frehillSettlementMuseum", "betterStoneAge", "runeWriter", "blockToppler", "dieRoll", "wagon"],
+		games: ["circuitGame", "indeesNuttyRestaurant", "ninjaCoinJumper", "boidShooter", "spellThief", "carbonClicker", "frehillSettlementMuseum", "runeWriter", "blockToppler"],
 		minecraft_mods: ["artisanal", "betterStoneAge"],
 		calculator_programs: ["dieRoll", "wagon"]
 	},
@@ -79,6 +79,25 @@ to hazardous chemicals and fracking, to portals to other dimensions and finally 
 <p>This game was awarded "Best Overall" at HackTrin Hackathon IX.</p>
 
 <p><a href="https://mrhitech.itch.io/carbon-clicker">Play here</a></p>
+`,
+	"circuitGame": `<h2>Emergent Reality Lab Circuit Game</h2>
+<p> An immersive game that teaches the player how to construct circuits.</p>
+
+<p> This game was created in and for Rensselaer Polytechnic Institute's Emergent Reality Lab. 
+The player starts by constructing simple NOT and OR gates before going on to construct more 
+complex gates such as multiplexors, XOR gates, and decoders. </p>
+
+<p>I laid the foundation for this game with my API's, including an easily-extensible object
+interaction system for the CAVE remote and an entire LL(1) language in which level solutions
+were encoded. I implemented many other systems, such as a robust system for picking objects
+up and dropping them. I also collaborated with other team members to create the logic gates themselves.</p>
+
+<p> The game was commissioned by the Northeast Regional Defense Technology Hub.
+Our experience culminated with a presentation to representatives of that company.
+We have yet to hear if our commission will be renewed, to allow us to continue working on the game,
+but I'm told that it likely will be.</p>
+
+
 `,
 	
 	"dieRoll": `<h2>DieRoll</h2>
