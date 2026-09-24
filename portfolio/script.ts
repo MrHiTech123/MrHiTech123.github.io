@@ -128,7 +128,7 @@ with a user interface that prioritizes intuitiveness at every level.</p>
 	"frehillSettlementMuseum": `<h2>Frehill Settlement Museum</h2>
 <p> A virtual museum of the Frehill Settlement, a location from one of my D&D campaigns. Features three immersive exhibits, each displaying a different part of Dwarven life and culture. </p>
 
-<p> <a href="https://"https://mrhitech.itch.io/frehill-museum"> Download here! </a> </p>
+<p> <a href="https://mrhitech.itch.io/frehill-museum"> Download here! </a> </p>
 
 `,
 
