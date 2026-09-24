@@ -83,7 +83,7 @@ to hazardous chemicals and fracking, to portals to other dimensions and finally 
 	"circuitGame": `<h2>Emergent Reality Lab Circuit Game</h2>
 <p> An immersive game that teaches the player how to construct circuits.</p>
 
-<p> This game was created in and for Rensselaer Polytechnic Institute's Emergent Reality Lab. 
+<p> This game was created in and for the CAVE system in Rensselaer Polytechnic Institute's Emergent Reality Lab. 
 The player starts by constructing simple NOT and OR gates before going on to construct more 
 complex gates such as multiplexors, XOR gates, and decoders. </p>
 
