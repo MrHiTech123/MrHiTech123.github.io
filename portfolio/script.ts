@@ -93,9 +93,8 @@ were encoded. I implemented many other systems, such as a robust system for pick
 up and dropping them. I also collaborated with other team members to create the logic gates themselves.</p>
 
 <p> The game was commissioned by the Northeast Regional Defense Technology Hub.
-Our experience culminated with a presentation to representatives of that company.
-We have yet to hear if our commission will be renewed, to allow us to continue working on the game,
-but I'm told that it likely will be.</p>
+Our experience culminated with a presentation to representatives of that company,
+which has convinced them to continue financing us through the fall.</p>
 
 <p> Pictured is:</p>
 
